@@ -25,7 +25,7 @@ A custom view which helps users to create a view with multiple image views that 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andreas Bagias' => 'andreasbagias@gmail.com' }
-  s.source           = { :git => 'https://github.com/andreasbagias@gmail.com/ABCollage.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/andreasbagias/ABCollage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
