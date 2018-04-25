@@ -1,0 +1,6 @@
+framework module ABCollage {
+  umbrella header "ABCollage-umbrella.h"
+
+  export *
+  module * { export * }
+}

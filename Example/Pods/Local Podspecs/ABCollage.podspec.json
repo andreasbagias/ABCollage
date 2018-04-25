@@ -1,0 +1,22 @@
+{
+  "name": "ABCollage",
+  "version": "0.1.0",
+  "summary": "A short description of ABCollage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/andreasbagias@gmail.com/ABCollage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "andreasbagias@gmail.com": "andreasbagias@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/andreasbagias@gmail.com/ABCollage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ABCollage/Classes/**/*"
+}

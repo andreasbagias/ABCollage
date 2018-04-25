@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		871A8C7D397CC4962889C913 /* Pods-ABCollage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCollage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABCollage_Tests/Pods-ABCollage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BCB09D5495FB2340C563B96 /* Pods-ABCollage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCollage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABCollage_Example/Pods-ABCollage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D0F15DCE60EB817C2E767CC /* ABCollage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ABCollage.podspec; path = ../ABCollage.podspec; sourceTree = "<group>"; };
+		9D0F15DCE60EB817C2E767CC /* ABCollage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ABCollage.podspec; path = ../ABCollage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABDD1F486D50789961549E16 /* Pods-ABCollage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCollage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABCollage_Tests/Pods-ABCollage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B9C4769042404EF2B79197FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DE3DF02AA7AA043FC9401577 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9C4769042404EF2B79197FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DE3DF02AA7AA043FC9401577 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
