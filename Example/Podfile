@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ABCollage_Example' do
+  pod 'ABCollage', :path => '../'
+
+  target 'ABCollage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
