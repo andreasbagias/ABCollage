@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ABCollage'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'Custom view with 2 dimensional array of image views'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ A custom view which helps users to create a view with multiple image views that 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.3' }
   
   s.source_files = 'ABCollage/Classes/**/*'
   # s.source_files = 'ABCollage/*.swift'
