@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		037510795FAFCE7F479A21A8 /* Pods_ABCollage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4976E1B0FAC3EA6CB5BB8D /* Pods_ABCollage_Tests.framework */; };
 		289CB3F520A894A50055AD25 /* picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 289CB3F420A894A50055AD25 /* picture1.png */; };
+		289CB3F720A89AE50055AD25 /* picture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 289CB3F620A89AE50055AD25 /* picture2.png */; };
 		28A7345A20912030000672D1 /* ABCollage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A7345920912030000672D1 /* ABCollage.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		1AB0A99C749F5C65FD791B58 /* Pods_ABCollage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		289CB3F420A894A50055AD25 /* picture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture1.png; sourceTree = "<group>"; };
+		289CB3F620A89AE50055AD25 /* picture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture2.png; sourceTree = "<group>"; };
 		28A7345920912030000672D1 /* ABCollage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ABCollage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4976E1B0FAC3EA6CB5BB8D /* Pods_ABCollage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		558435F92AC86BB656CF1B70 /* Pods-ABCollage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCollage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABCollage_Example/Pods-ABCollage_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				289CB3F420A894A50055AD25 /* picture1.png */,
+				289CB3F620A89AE50055AD25 /* picture2.png */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ABCollage */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -257,6 +260,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				289CB3F720A89AE50055AD25 /* picture2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
