@@ -20,6 +20,29 @@ it, simply add the following line to your Podfile:
 pod 'ABCollage'
 ```
 
+## How to Use
+
+```swift
+collageView.horizontalfactors = [[2,1],[1,2],[1,1]] //optional
+collageView.verticalFactors = [1,1,1] //optional
+collageView.padding = 10 //optional
+collageView.cornerRadius = 10 //optional
+collageView.borderWidth = 3 //optional
+
+let image1 = ABImage(image: UIImage(named: "test1")!)
+let image2 = ABImage(image: UIImage(named: "test2")!)
+let image3 = ABImage(image: UIImage(named: "test3")!)
+let image4 = ABImage(image: UIImage(named: "test4")!)
+let image5 = ABImage(image: UIImage(named: "test5")!)
+let image6 = ABImage(image: UIImage(named: "test6")!)
+
+collageView.media = [[image1,image2],
+[image4,image3],
+[image5,image6]]
+
+collageView.setUserInteraction(enabled: true, vc: self) //optional
+```
+
 ## Author
 
 andreas bagias, andreasbagias@gmail.com
