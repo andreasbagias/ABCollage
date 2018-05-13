@@ -106,7 +106,7 @@ public class ABCollageView: UIView{
                 if let abVideo = media[i][j] as? ABVideo{
                     
                     abVideo.playerLayer.frame = positions[i][j]
-                    abVideo.playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+                    abVideo.playerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
                     abVideo.playerLayer.masksToBounds = true
                     abVideo.playerLayer.cornerRadius = cornerRadius
                     abVideo.playerLayer.borderWidth = abVideo.borderWidth ?? borderWidth

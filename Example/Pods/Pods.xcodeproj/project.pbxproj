@@ -7,49 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B49D68D172A0C24681C6F8CF2CA8AAD /* SKIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */; };
-		1ECB692079A3BAF88098F003E6601A42 /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */; };
-		289CB40320A8AC190055AD25 /* ABImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB40020A8AC180055AD25 /* ABImage.swift */; };
-		289CB40420A8AC190055AD25 /* ABMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB40120A8AC180055AD25 /* ABMedia.swift */; };
-		289CB40520A8AC190055AD25 /* ABVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB40220A8AC180055AD25 /* ABVideo.swift */; };
-		29CF0703648BA311E99953EF09A74DA2 /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */; };
-		2A3AC003CAC1E9E2E972F059353EB1DC /* SKLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */; };
+		17CFB74BD7F2A4933A62CA8C56574DAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
+		1B2F29D8B3E54BC5CCD716C02F191817 /* SKPaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */; };
+		204FBC660C44B42FDA132A18FE695D00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B04161248E708221416DBC7C69C950C /* UIKit.framework */; };
+		2A67CDFF7CA13565A8ABA44C45441322 /* SKAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */; };
 		2A864E71386F60C29DBE2472E344ECB6 /* Pods-ABCollage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D2E7F79A6903B433672A6A48E2A6827 /* ABCollageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1FE66410F9E6E6A349A425A1BB29B4 /* ABCollageView.swift */; };
+		30668F9596D7BF38C6B98A6606C25738 /* SKPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */; };
 		31A2AFCA43DE866F8F0D17429C5B6D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
-		36095C3489ED3278D22BC930026ABFC3 /* SKDetectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */; };
-		406E67EDED12AC08523DE70B81EC8A4E /* SKPhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */; };
-		42117DC0C27A18E3C62A7947626CC7A5 /* SKPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */; };
-		477B2FB64A6419CE4FFEA2ED8106369B /* SKPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C39B845E2977A21A1E1C7DFBBECB526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
+		32266151D60F5E957FC41BA0A8B78737 /* SKZoomingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */; };
+		3F44D5C88A82EE108B177EB74B70C7A7 /* UIApplication+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */; };
+		467890E761EC9123E9394B13AE1F8D9A /* SKPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		506418D9B395A51A6055150B9D9BC171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
-		5077BE6E12724C069DF357CD549A9811 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */; };
-		6472F390F1BC66908DFC03E394B4A7E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B04161248E708221416DBC7C69C950C /* UIKit.framework */; };
-		6D60C81B7788C238DA2AE95E0BDFA24C /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */; };
-		6FBA812765688AEEE5DB9BD9A16F7186 /* ABCollage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825D3BD8504DC553AC792A9033611BB6 /* ABCollage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56645E1AFD17F9E06ECD2FDE0F4CF05B /* SKMesurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */; };
+		5C17721D1A6F8B094792A47FBAAB00CB /* SKLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */; };
+		6DF285F9279096A86BDD69E9917C5882 /* SKDetectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */; };
+		7053809688DA6DDD06D5B6F27D3045A4 /* SKPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBE6FD6EBE2BF601AAB55E56E673C65 /* SKPhotoBrowser.framework */; };
+		7428902B84295DC2C1EB11164533C053 /* ABMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56307AE7CB4BD9DB3A3185B91CE1A98 /* ABMedia.swift */; };
 		758EB519365134A2BE8F58E36ED23333 /* Pods-ABCollage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D92D65F707DD1F3F55D9DE433D756 /* Pods-ABCollage_Example-dummy.m */; };
-		7AEAEF03A238EE48D0F5F1C5B8626908 /* SKZoomingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */; };
-		84A995196FEE306C67FAC26F2D29C5DB /* SKPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBE6FD6EBE2BF601AAB55E56E673C65 /* SKPhotoBrowser.framework */; };
-		84C02CFBA72E4128E469A6DABB1CD5B3 /* SKMesurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */; };
+		7703AAB644601B9926E6FE54BFB9E61F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B04161248E708221416DBC7C69C950C /* UIKit.framework */; };
+		7A667FDC8AE5C862BA34D6B9B5FA8798 /* SKActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */; };
+		7AFECE79EE511930D3AE3FFA296F7FBD /* SKCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */; };
 		8BC97A77686C3482479B7AE3F3EB9EBD /* Pods-ABCollage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F74EEC6BE25F55D8DFC1E2CC605170 /* Pods-ABCollage_Tests-dummy.m */; };
-		8EA615433CCF828040A057AC76476E5F /* SKPhotoBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */; };
-		9379E36780FF3B907924DCD2BD0531F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B04161248E708221416DBC7C69C950C /* UIKit.framework */; };
-		94DC58A3CCFEB1781FC2A96C0669675E /* SKPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */; };
-		9ACA84E2C2AE799F03322890C060CC27 /* SKActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */; };
-		A26211349649900F63E959B174BD806A /* ABCollage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616599BDED2F94CD7E9B51BBEA311549 /* ABCollage-dummy.m */; };
-		B79E3D8B14DC75AFBBB8433F5505C49F /* SKButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */; };
-		B891F6D88BD09B619110D261C78A27BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
-		C7E819331E39966F19F7BCCB6B091DCB /* UIApplication+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */; };
-		CD21D0CE3C0B3E52F342AAC6AE46B99B /* SKPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */; };
-		CD55D04820F51686DEF4119822A4F293 /* SKPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */; };
-		D0D90EC4042D2CCDC6D47BD94EF36CA8 /* SKPaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */; };
-		D48EB9E2213A57BD3721394ACEBC45C3 /* SKAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */; };
-		DE123841245C569681522BDE2AFE9D5B /* SKCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */; };
-		E4B603C58058162A7595AE33EFE1F0B5 /* SKCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */; };
+		8C4B1A8D5F986842C743D5D5B488E1F9 /* SKDetectingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */; };
+		93AB9E198CD25760CCD018B958EE734F /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */; };
+		977755846FFBCBA681CE48E37C1D00E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
+		98B6C41934CF422E377CF206B6BE5554 /* SKPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */; };
+		A094AE6AC1684B2D489B6CBD2D39CE4D /* SKIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */; };
+		A45B4313306254775A7DB1F08E528D65 /* ABCollageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AE69F8173A0861DF17C8EB473CDA4 /* ABCollageView.swift */; };
+		A8318679906CACAE3A0921CE1ED7AB20 /* SKButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */; };
+		BA549D8C752FA9B1853D01F5BF266E72 /* SKPhotoBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */; };
+		BBE9C28C48D4A2D09106D006AFA45C8F /* SKPhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */; };
+		D1C8DDF830C733C48EFE8FB6E1A7F7C5 /* ABCollage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C47380C75E1BC0FDE11D5105D5FF19 /* ABCollage-dummy.m */; };
+		D24CD39553D0CAFFAA09151E5604C985 /* SKCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */; };
+		D39C4D93FAAB686622E61ECE551F7B98 /* SKPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */; };
+		DDCDE427518EFF3BC38037A44F1B24E3 /* SKPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */; };
+		E47F8B0F6FBD826419FC0019813AA4C7 /* ABCollage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0548DB307629A0F20542695848907B8C /* ABCollage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A45A68FAF22E172FCE2107232B8C28 /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */; };
+		E7CC86EAF928581B3A3E9D42FD9D8AB1 /* SKPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */; };
+		E8430EB48B167380C28A32F04CE8C92F /* SKPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA080617871C45904C4F85F5E67A167C /* ABVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8754A1F00B111FAE96CC783089FA18A8 /* ABVideo.swift */; };
 		EE49A6C0CB4218967F851AB98EE80DE7 /* Pods-ABCollage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBA4EA678CDB109C5B88D324B1A8C0 /* Pods-ABCollage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2A5E92F702D947646F569C400B89FD1 /* SKPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */; };
-		F32E521B5723A8BB77842C55A7BB7F3E /* SKDetectingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */; };
-		F5DF6DAE9D91714E74572C4973434574 /* SKPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F43776F4FE89012E22B5EEBCFBAA2D95 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */; };
+		F7A2A4C5B1F74223AF4C0E05E37B6479 /* ABImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735FB8416900BE975C2C4452BC61D46 /* ABImage.swift */; };
+		FF9992B48D3A9962C8FE88CFEC02DD7C /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,14 +57,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37DE287EA6FE442FA4D338E8EC23A64E;
+			remoteGlobalIDString = 93E045777B7714A2F2C044AF359DD6DB;
 			remoteInfo = SKPhotoBrowser;
 		};
 		783B944341D51027FBA7CDF08604572B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 49CD610974775CED04EBE507508BAF86;
+			remoteGlobalIDString = 0CD8E93D0E8423AD596DA48C39DD2600;
 			remoteInfo = ABCollage;
 		};
 		AD96DA919702AF6BF7E9EB65B0F59E20 /* PBXContainerItemProxy */ = {
@@ -74,96 +74,96 @@
 			remoteGlobalIDString = 9DDB4839A19A95779D773C0F2181B95B;
 			remoteInfo = "Pods-ABCollage_Example";
 		};
-		CC500FBF19836D903AFBCEF33D50972F /* PBXContainerItemProxy */ = {
+		B55A5B112E3B9B3A468C15670D21BC5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37DE287EA6FE442FA4D338E8EC23A64E;
+			remoteGlobalIDString = 93E045777B7714A2F2C044AF359DD6DB;
 			remoteInfo = SKPhotoBrowser;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015F6527025C5C5EA45D33DA418FB7D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		03CC2FB3340A2E3FC1114BE10BEC9DA7 /* Pods-ABCollage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0548DB307629A0F20542695848907B8C /* ABCollage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-umbrella.h"; sourceTree = "<group>"; };
+		0735FB8416900BE975C2C4452BC61D46 /* ABImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABImage.swift; path = ABCollage/Classes/ABImage.swift; sourceTree = "<group>"; };
 		08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPaginationView.swift; path = SKPhotoBrowser/SKPaginationView.swift; sourceTree = "<group>"; };
 		0BE5DE8D9272C6DC037109E021516322 /* Pods-ABCollage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABCollage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPhotoBrowser.h; path = SKPhotoBrowser/SKPhotoBrowser.h; sourceTree = "<group>"; };
 		13100A767D578C1F0877DA50A34E2717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPhotoBrowser.xcconfig; sourceTree = "<group>"; };
 		1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingView.swift; path = SKPhotoBrowser/SKDetectingView.swift; sourceTree = "<group>"; };
-		289CB40020A8AC180055AD25 /* ABImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABImage.swift; path = ABCollage/Classes/ABImage.swift; sourceTree = "<group>"; };
-		289CB40120A8AC180055AD25 /* ABMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABMedia.swift; path = ABCollage/Classes/ABMedia.swift; sourceTree = "<group>"; };
-		289CB40220A8AC180055AD25 /* ABVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABVideo.swift; path = ABCollage/Classes/ABVideo.swift; sourceTree = "<group>"; };
-		28EACE2AA592E4F96233EBABB9071A9C /* Pods_ABCollage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		212699266E53FDCA33DF1C353EF328F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		28EACE2AA592E4F96233EBABB9071A9C /* Pods_ABCollage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABCollage_Example.framework; path = "Pods-ABCollage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserDelegate.swift; path = SKPhotoBrowser/SKPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
 		2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABCollage_Example-umbrella.h"; sourceTree = "<group>"; };
 		30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKActionView.swift; path = SKPhotoBrowser/SKActionView.swift; sourceTree = "<group>"; };
-		3A1FE66410F9E6E6A349A425A1BB29B4 /* ABCollageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABCollageView.swift; path = ABCollage/Classes/ABCollageView.swift; sourceTree = "<group>"; };
 		3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCache.swift; path = SKPhotoBrowser/SKCache.swift; sourceTree = "<group>"; };
 		445FD1237C02BA3782283780D3D22042 /* Pods-ABCollage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Example-resources.sh"; sourceTree = "<group>"; };
 		485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserOptions.swift; path = SKPhotoBrowser/SKPhotoBrowserOptions.swift; sourceTree = "<group>"; };
-		4C51AE91A9DB2D1FB576658543CF0062 /* ABCollage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABCollage.modulemap; sourceTree = "<group>"; };
+		4C5AE69F8173A0861DF17C8EB473CDA4 /* ABCollageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABCollageView.swift; path = ABCollage/Classes/ABCollageView.swift; sourceTree = "<group>"; };
 		52774E6AC242C1451396D8ED59F883A2 /* Pods-ABCollage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABCollage_Example.modulemap"; sourceTree = "<group>"; };
 		53602DA506D3E44BA0B100652A833F9E /* SKPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
 		549A69AF1FD07E441E0148892E381916 /* Pods-ABCollage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
 		5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+UIWindow.swift"; path = "SKPhotoBrowser/UIApplication+UIWindow.swift"; sourceTree = "<group>"; };
-		616599BDED2F94CD7E9B51BBEA311549 /* ABCollage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABCollage-dummy.m"; sourceTree = "<group>"; };
+		67FCB95CF829A78B418D2DB87A66D07A /* ABCollage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABCollage.modulemap; sourceTree = "<group>"; };
 		6B04161248E708221416DBC7C69C950C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		752558238B2855BC0C9CB3B85E9103D5 /* ABCollage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ABCollage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMesurement.swift; path = SKPhotoBrowser/SKMesurement.swift; sourceTree = "<group>"; };
 		79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
 		7BBABFD2C2F758E5ADCE4727C8C977E4 /* Pods-ABCollage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABCollage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotation.swift"; path = "SKPhotoBrowser/extensions/UIImage+Rotation.swift"; sourceTree = "<group>"; };
 		7F4D92D65F707DD1F3F55D9DE433D756 /* Pods-ABCollage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABCollage_Example-dummy.m"; sourceTree = "<group>"; };
 		813FC0C68EC3F7DB22E6DF10CD964D0E /* Pods-ABCollage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Example-frameworks.sh"; sourceTree = "<group>"; };
-		825D3BD8504DC553AC792A9033611BB6 /* ABCollage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-umbrella.h"; sourceTree = "<group>"; };
 		84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKIndicatorView.swift; path = SKPhotoBrowser/SKIndicatorView.swift; sourceTree = "<group>"; };
-		8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABCollage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8754A1F00B111FAE96CC783089FA18A8 /* ABVideo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABVideo.swift; path = ABCollage/Classes/ABVideo.swift; sourceTree = "<group>"; };
+		8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABCollage.framework; path = ABCollage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F77E23D90E3276C782E122BD027DF1 /* Pods-ABCollage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9F6FFCC82CF5A4BB1102E1AA1DF4B292 /* ABCollage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-prefix.pch"; sourceTree = "<group>"; };
 		A1F6F265DAE95F87F7350BFA63CBB61E /* Pods-ABCollage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Tests-resources.sh"; sourceTree = "<group>"; };
 		A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKZoomingScrollView.swift; path = SKPhotoBrowser/SKZoomingScrollView.swift; sourceTree = "<group>"; };
 		AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCacheable.swift; path = SKPhotoBrowser/SKCacheable.swift; sourceTree = "<group>"; };
 		AF3C7F7224956587E6B79FC1C7E8DFCB /* Pods-ABCollage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABCollage.xcconfig; sourceTree = "<group>"; };
 		B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCaptionView.swift; path = SKPhotoBrowser/SKCaptionView.swift; sourceTree = "<group>"; };
+		B56307AE7CB4BD9DB3A3185B91CE1A98 /* ABMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABMedia.swift; path = ABCollage/Classes/ABMedia.swift; sourceTree = "<group>"; };
 		B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowser.swift; path = SKPhotoBrowser/SKPhotoBrowser.swift; sourceTree = "<group>"; };
 		B85FAB63B4B8DDFB46844FC4DD59AF97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B99A55E044B02922F2C5E42C20ACDB55 /* SKPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKPhotoBrowser.modulemap; sourceTree = "<group>"; };
 		B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingImageView.swift; path = SKPhotoBrowser/SKDetectingImageView.swift; sourceTree = "<group>"; };
 		BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKAnimator.swift; path = SKPhotoBrowser/SKAnimator.swift; sourceTree = "<group>"; };
-		CBD77ACF8FBD7ECE7E89430F0989362D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C4F849DF28A4D7F963D9A82A7494F9B1 /* ABCollage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABCollage.xcconfig; sourceTree = "<group>"; };
+		CAD5B533F3D33B04069D3B190C904210 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD859C70F506CB73F6516A7BBCB6EE78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKToolbar.swift; path = SKPhotoBrowser/SKToolbar.swift; sourceTree = "<group>"; };
-		CEFA248FEC5B40EE98707C492A18DB8E /* ABCollage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-prefix.pch"; sourceTree = "<group>"; };
 		CFCBA4EA678CDB109C5B88D324B1A8C0 /* Pods-ABCollage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABCollage_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CFDE11FDD7A7B437A348B1080E180B41 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDE11FDD7A7B437A348B1080E180B41 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKPhotoBrowser.framework; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhoto.swift; path = SKPhotoBrowser/SKPhoto.swift; sourceTree = "<group>"; };
 		D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKButtons.swift; path = SKPhotoBrowser/SKButtons.swift; sourceTree = "<group>"; };
 		D7F74EEC6BE25F55D8DFC1E2CC605170 /* Pods-ABCollage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABCollage_Tests-dummy.m"; sourceTree = "<group>"; };
 		DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPagingScrollView.swift; path = SKPhotoBrowser/SKPagingScrollView.swift; sourceTree = "<group>"; };
-		DEF4F619FC04C948CDA29736DB5BA702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C47380C75E1BC0FDE11D5105D5FF19 /* ABCollage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABCollage-dummy.m"; sourceTree = "<group>"; };
 		EFB067AC2E02B1E3768F6D847A51DC54 /* Pods-ABCollage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABCollage_Tests.modulemap"; sourceTree = "<group>"; };
 		F2815B573B727DC379C4DB3A7BC9CC8D /* Pods-ABCollage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABCollage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Radius.swift"; path = "SKPhotoBrowser/extensions/UIView+Radius.swift"; sourceTree = "<group>"; };
 		F999119847D651236FA5069CC9F91C90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SKPhotoBrowser.bundle; path = SKPhotoBrowser/SKPhotoBrowser.bundle; sourceTree = "<group>"; };
 		FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKLocalPhoto.swift; path = SKPhotoBrowser/SKLocalPhoto.swift; sourceTree = "<group>"; };
+		FC5AC9D9D50458133032D77126DD9780 /* ABCollage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ABCollage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC9B54F29674471A1DF12D4262704591 /* Pods-ABCollage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABCollage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FCC83E7A6019812F63D98C217EC91556 /* Pods-ABCollage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDBE6FD6EBE2BF601AAB55E56E673C65 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF242C1928FD25DC94823734C50FFE18 /* Pods_ABCollage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF242C1928FD25DC94823734C50FFE18 /* Pods_ABCollage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABCollage_Tests.framework; path = "Pods-ABCollage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07450612D452D4F525315234A0C518DB /* Frameworks */ = {
+		0B511E575F56902D5766F3A453AADDFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B891F6D88BD09B619110D261C78A27BE /* Foundation.framework in Frameworks */,
-				9379E36780FF3B907924DCD2BD0531F5 /* UIKit.framework in Frameworks */,
+				977755846FFBCBA681CE48E37C1D00E1 /* Foundation.framework in Frameworks */,
+				204FBC660C44B42FDA132A18FE695D00 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,21 +175,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F7553C48971D6A59A7457E289CD6CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CFB74BD7F2A4933A62CA8C56574DAE /* Foundation.framework in Frameworks */,
+				7053809688DA6DDD06D5B6F27D3045A4 /* SKPhotoBrowser.framework in Frameworks */,
+				7703AAB644601B9926E6FE54BFB9E61F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		781A565D32D3246DDBC68DD351D3CC77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				506418D9B395A51A6055150B9D9BC171 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DE15704F10461604A0E4ED15046C437 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C39B845E2977A21A1E1C7DFBBECB526 /* Foundation.framework in Frameworks */,
-				84A995196FEE306C67FAC26F2D29C5DB /* SKPhotoBrowser.framework in Frameworks */,
-				6472F390F1BC66908DFC03E394B4A7E1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,18 +204,22 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		0DA01721E3696A137D940410CDD54A13 /* ABCollage */ = {
+		14D5F52FEE087481A7D76FDFC69E3C40 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				289CB40020A8AC180055AD25 /* ABImage.swift */,
-				289CB40120A8AC180055AD25 /* ABMedia.swift */,
-				289CB40220A8AC180055AD25 /* ABVideo.swift */,
-				3A1FE66410F9E6E6A349A425A1BB29B4 /* ABCollageView.swift */,
-				3A7510D223250F7E544B4481E0E51740 /* Pod */,
-				443BFA42C9FB44841937985075C3633A /* Support Files */,
+				316EC57C4A9799A5D73B00791950619B /* ABCollage */,
 			);
-			name = ABCollage;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		158B6440FC0A51F8BFB0FA244E3A34A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AC9D9D50458133032D77126DD9780 /* ABCollage.podspec */,
+				CD859C70F506CB73F6516A7BBCB6EE78 /* LICENSE */,
+				212699266E53FDCA33DF1C353EF328F4 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		1A5E775CA15D27D4FA5C2C490568FF92 /* Pods */ = {
@@ -226,36 +230,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2BA75BD1929F55BF73ABD18AF59EB868 /* Development Pods */ = {
+		316EC57C4A9799A5D73B00791950619B /* ABCollage */ = {
 			isa = PBXGroup;
 			children = (
-				0DA01721E3696A137D940410CDD54A13 /* ABCollage */,
+				4C5AE69F8173A0861DF17C8EB473CDA4 /* ABCollageView.swift */,
+				0735FB8416900BE975C2C4452BC61D46 /* ABImage.swift */,
+				B56307AE7CB4BD9DB3A3185B91CE1A98 /* ABMedia.swift */,
+				8754A1F00B111FAE96CC783089FA18A8 /* ABVideo.swift */,
+				158B6440FC0A51F8BFB0FA244E3A34A1 /* Pod */,
+				94759529B35FB04AA8FA1CB59AA00BEF /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3A7510D223250F7E544B4481E0E51740 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				752558238B2855BC0C9CB3B85E9103D5 /* ABCollage.podspec */,
-				015F6527025C5C5EA45D33DA418FB7D4 /* LICENSE */,
-				CBD77ACF8FBD7ECE7E89430F0989362D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		443BFA42C9FB44841937985075C3633A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C51AE91A9DB2D1FB576658543CF0062 /* ABCollage.modulemap */,
-				AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */,
-				616599BDED2F94CD7E9B51BBEA311549 /* ABCollage-dummy.m */,
-				CEFA248FEC5B40EE98707C492A18DB8E /* ABCollage-prefix.pch */,
-				825D3BD8504DC553AC792A9033611BB6 /* ABCollage-umbrella.h */,
-				DEF4F619FC04C948CDA29736DB5BA702 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ABCollage";
+			name = ABCollage;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BE46BF34BD31ADAF7EA87CABD752362 /* SKPhotoBrowser */ = {
@@ -287,6 +273,7 @@
 				0D9B0C3D7B748D34849F791E4639B353 /* Resources */,
 				9F8E01465AB23A94F81DFCC6D2861A2B /* Support Files */,
 			);
+			name = SKPhotoBrowser;
 			path = SKPhotoBrowser;
 			sourceTree = "<group>";
 		};
@@ -294,7 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2BA75BD1929F55BF73ABD18AF59EB868 /* Development Pods */,
+				14D5F52FEE087481A7D76FDFC69E3C40 /* Development Pods */,
 				7F6DB1A00C624BC1DA89EBF5E346919C /* Frameworks */,
 				1A5E775CA15D27D4FA5C2C490568FF92 /* Pods */,
 				B06F50C1A79048056B49207733853C7B /* Products */,
@@ -309,6 +296,20 @@
 				C068016248FCC8572EFD9787A55D7F39 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94759529B35FB04AA8FA1CB59AA00BEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67FCB95CF829A78B418D2DB87A66D07A /* ABCollage.modulemap */,
+				C4F849DF28A4D7F963D9A82A7494F9B1 /* ABCollage.xcconfig */,
+				E1C47380C75E1BC0FDE11D5105D5FF19 /* ABCollage-dummy.m */,
+				9F6FFCC82CF5A4BB1102E1AA1DF4B292 /* ABCollage-prefix.pch */,
+				0548DB307629A0F20542695848907B8C /* ABCollage-umbrella.h */,
+				CAD5B533F3D33B04069D3B190C904210 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ABCollage";
 			sourceTree = "<group>";
 		};
 		95D5DEBBEF4C0176E2F3744C0D81DA02 /* Pods-ABCollage_Tests */ = {
@@ -401,20 +402,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65E43F883AF0E8B6DFA5A532B0647FC9 /* Headers */ = {
+		30E7B819E35D54CF755080A2AAAAC42E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477B2FB64A6419CE4FFEA2ED8106369B /* SKPhotoBrowser-umbrella.h in Headers */,
-				F5DF6DAE9D91714E74572C4973434574 /* SKPhotoBrowser.h in Headers */,
+				467890E761EC9123E9394B13AE1F8D9A /* SKPhotoBrowser-umbrella.h in Headers */,
+				E8430EB48B167380C28A32F04CE8C92F /* SKPhotoBrowser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EEBD9F111AB6581DE3ECE7C7322F74C /* Headers */ = {
+		6707B94E785B4749044E3BB97B2790C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FBA812765688AEEE5DB9BD9A16F7186 /* ABCollage-umbrella.h in Headers */,
+				E47F8B0F6FBD826419FC0019813AA4C7 /* ABCollage-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +430,32 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37DE287EA6FE442FA4D338E8EC23A64E /* SKPhotoBrowser */ = {
+		0CD8E93D0E8423AD596DA48C39DD2600 /* ABCollage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1180A26705F5DD56A2B2A04DA8F94FA3 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */;
+			buildConfigurationList = 2B1F1FC3EADC1BC200B0C69C3831B801 /* Build configuration list for PBXNativeTarget "ABCollage" */;
 			buildPhases = (
-				E7B2B11BEC69FB153BC1EF8632FF1DF7 /* Sources */,
-				07450612D452D4F525315234A0C518DB /* Frameworks */,
-				65E43F883AF0E8B6DFA5A532B0647FC9 /* Headers */,
-				6FCA51ED87296F7ED136286954828A2C /* Resources */,
+				D7794BB40928B15CFFCE0CE8E6121BF0 /* Sources */,
+				4F7553C48971D6A59A7457E289CD6CCC /* Frameworks */,
+				6707B94E785B4749044E3BB97B2790C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7392EB8705C55B00AA195093B6619D63 /* PBXTargetDependency */,
+			);
+			name = ABCollage;
+			productName = ABCollage;
+			productReference = 8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93E045777B7714A2F2C044AF359DD6DB /* SKPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF371002FD4D85164A2570580A3DC22 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */;
+			buildPhases = (
+				D8CF7DDE17ACF51F87277B4683752709 /* Sources */,
+				0B511E575F56902D5766F3A453AADDFB /* Frameworks */,
+				30E7B819E35D54CF755080A2AAAAC42E /* Headers */,
+				EA6721C1558CEAE8EADBB965A75978DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -445,24 +464,6 @@
 			name = SKPhotoBrowser;
 			productName = SKPhotoBrowser;
 			productReference = CFDE11FDD7A7B437A348B1080E180B41 /* SKPhotoBrowser.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		49CD610974775CED04EBE507508BAF86 /* ABCollage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2FFE1974A6EF96C3D0350851093C5AC3 /* Build configuration list for PBXNativeTarget "ABCollage" */;
-			buildPhases = (
-				355B3B831DB11B4BC1EDD925CC97383B /* Sources */,
-				7DE15704F10461604A0E4ED15046C437 /* Frameworks */,
-				6EEBD9F111AB6581DE3ECE7C7322F74C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				66B1E924D31E31AE5C72EF4DBAF8D4B6 /* PBXTargetDependency */,
-			);
-			name = ABCollage;
-			productName = ABCollage;
-			productReference = 8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9DDB4839A19A95779D773C0F2181B95B /* Pods-ABCollage_Example */ = {
@@ -523,38 +524,26 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49CD610974775CED04EBE507508BAF86 /* ABCollage */,
+				0CD8E93D0E8423AD596DA48C39DD2600 /* ABCollage */,
 				9DDB4839A19A95779D773C0F2181B95B /* Pods-ABCollage_Example */,
 				B128FAC4E710C5C50C071FA05BECD32E /* Pods-ABCollage_Tests */,
-				37DE287EA6FE442FA4D338E8EC23A64E /* SKPhotoBrowser */,
+				93E045777B7714A2F2C044AF359DD6DB /* SKPhotoBrowser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6FCA51ED87296F7ED136286954828A2C /* Resources */ = {
+		EA6721C1558CEAE8EADBB965A75978DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DC58A3CCFEB1781FC2A96C0669675E /* SKPhotoBrowser.bundle in Resources */,
+				98B6C41934CF422E377CF206B6BE5554 /* SKPhotoBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		355B3B831DB11B4BC1EDD925CC97383B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A26211349649900F63E959B174BD806A /* ABCollage-dummy.m in Sources */,
-				289CB40320A8AC190055AD25 /* ABImage.swift in Sources */,
-				2D2E7F79A6903B433672A6A48E2A6827 /* ABCollageView.swift in Sources */,
-				289CB40520A8AC190055AD25 /* ABVideo.swift in Sources */,
-				289CB40420A8AC190055AD25 /* ABMedia.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8253E01D0AA3A6495DECC6C7F80E288B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,33 +552,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7B2B11BEC69FB153BC1EF8632FF1DF7 /* Sources */ = {
+		D7794BB40928B15CFFCE0CE8E6121BF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ACA84E2C2AE799F03322890C060CC27 /* SKActionView.swift in Sources */,
-				D48EB9E2213A57BD3721394ACEBC45C3 /* SKAnimator.swift in Sources */,
-				B79E3D8B14DC75AFBBB8433F5505C49F /* SKButtons.swift in Sources */,
-				5077BE6E12724C069DF357CD549A9811 /* SKCache.swift in Sources */,
-				DE123841245C569681522BDE2AFE9D5B /* SKCacheable.swift in Sources */,
-				E4B603C58058162A7595AE33EFE1F0B5 /* SKCaptionView.swift in Sources */,
-				F32E521B5723A8BB77842C55A7BB7F3E /* SKDetectingImageView.swift in Sources */,
-				36095C3489ED3278D22BC930026ABFC3 /* SKDetectingView.swift in Sources */,
-				0B49D68D172A0C24681C6F8CF2CA8AAD /* SKIndicatorView.swift in Sources */,
-				2A3AC003CAC1E9E2E972F059353EB1DC /* SKLocalPhoto.swift in Sources */,
-				84C02CFBA72E4128E469A6DABB1CD5B3 /* SKMesurement.swift in Sources */,
-				D0D90EC4042D2CCDC6D47BD94EF36CA8 /* SKPaginationView.swift in Sources */,
-				CD55D04820F51686DEF4119822A4F293 /* SKPagingScrollView.swift in Sources */,
-				42117DC0C27A18E3C62A7947626CC7A5 /* SKPhoto.swift in Sources */,
-				F2A5E92F702D947646F569C400B89FD1 /* SKPhotoBrowser-dummy.m in Sources */,
-				CD21D0CE3C0B3E52F342AAC6AE46B99B /* SKPhotoBrowser.swift in Sources */,
-				406E67EDED12AC08523DE70B81EC8A4E /* SKPhotoBrowserDelegate.swift in Sources */,
-				8EA615433CCF828040A057AC76476E5F /* SKPhotoBrowserOptions.swift in Sources */,
-				1ECB692079A3BAF88098F003E6601A42 /* SKToolbar.swift in Sources */,
-				7AEAEF03A238EE48D0F5F1C5B8626908 /* SKZoomingScrollView.swift in Sources */,
-				C7E819331E39966F19F7BCCB6B091DCB /* UIApplication+UIWindow.swift in Sources */,
-				6D60C81B7788C238DA2AE95E0BDFA24C /* UIImage+Rotation.swift in Sources */,
-				29CF0703648BA311E99953EF09A74DA2 /* UIView+Radius.swift in Sources */,
+				D1C8DDF830C733C48EFE8FB6E1A7F7C5 /* ABCollage-dummy.m in Sources */,
+				A45B4313306254775A7DB1F08E528D65 /* ABCollageView.swift in Sources */,
+				F7A2A4C5B1F74223AF4C0E05E37B6479 /* ABImage.swift in Sources */,
+				7428902B84295DC2C1EB11164533C053 /* ABMedia.swift in Sources */,
+				EA080617871C45904C4F85F5E67A167C /* ABVideo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CF7DDE17ACF51F87277B4683752709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A667FDC8AE5C862BA34D6B9B5FA8798 /* SKActionView.swift in Sources */,
+				2A67CDFF7CA13565A8ABA44C45441322 /* SKAnimator.swift in Sources */,
+				A8318679906CACAE3A0921CE1ED7AB20 /* SKButtons.swift in Sources */,
+				F43776F4FE89012E22B5EEBCFBAA2D95 /* SKCache.swift in Sources */,
+				7AFECE79EE511930D3AE3FFA296F7FBD /* SKCacheable.swift in Sources */,
+				D24CD39553D0CAFFAA09151E5604C985 /* SKCaptionView.swift in Sources */,
+				8C4B1A8D5F986842C743D5D5B488E1F9 /* SKDetectingImageView.swift in Sources */,
+				6DF285F9279096A86BDD69E9917C5882 /* SKDetectingView.swift in Sources */,
+				A094AE6AC1684B2D489B6CBD2D39CE4D /* SKIndicatorView.swift in Sources */,
+				5C17721D1A6F8B094792A47FBAAB00CB /* SKLocalPhoto.swift in Sources */,
+				56645E1AFD17F9E06ECD2FDE0F4CF05B /* SKMesurement.swift in Sources */,
+				1B2F29D8B3E54BC5CCD716C02F191817 /* SKPaginationView.swift in Sources */,
+				30668F9596D7BF38C6B98A6606C25738 /* SKPagingScrollView.swift in Sources */,
+				D39C4D93FAAB686622E61ECE551F7B98 /* SKPhoto.swift in Sources */,
+				DDCDE427518EFF3BC38037A44F1B24E3 /* SKPhotoBrowser-dummy.m in Sources */,
+				E7CC86EAF928581B3A3E9D42FD9D8AB1 /* SKPhotoBrowser.swift in Sources */,
+				BBE9C28C48D4A2D09106D006AFA45C8F /* SKPhotoBrowserDelegate.swift in Sources */,
+				BA549D8C752FA9B1853D01F5BF266E72 /* SKPhotoBrowserOptions.swift in Sources */,
+				E5A45A68FAF22E172FCE2107232B8C28 /* SKToolbar.swift in Sources */,
+				32266151D60F5E957FC41BA0A8B78737 /* SKZoomingScrollView.swift in Sources */,
+				3F44D5C88A82EE108B177EB74B70C7A7 /* UIApplication+UIWindow.swift in Sources */,
+				93AB9E198CD25760CCD018B958EE734F /* UIImage+Rotation.swift in Sources */,
+				FF9992B48D3A9962C8FE88CFEC02DD7C /* UIView+Radius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,14 +608,14 @@
 		27CFF76277F2A163A587B9D8D757793E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ABCollage;
-			target = 49CD610974775CED04EBE507508BAF86 /* ABCollage */;
+			target = 0CD8E93D0E8423AD596DA48C39DD2600 /* ABCollage */;
 			targetProxy = 783B944341D51027FBA7CDF08604572B /* PBXContainerItemProxy */;
 		};
-		66B1E924D31E31AE5C72EF4DBAF8D4B6 /* PBXTargetDependency */ = {
+		7392EB8705C55B00AA195093B6619D63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SKPhotoBrowser;
-			target = 37DE287EA6FE442FA4D338E8EC23A64E /* SKPhotoBrowser */;
-			targetProxy = CC500FBF19836D903AFBCEF33D50972F /* PBXContainerItemProxy */;
+			target = 93E045777B7714A2F2C044AF359DD6DB /* SKPhotoBrowser */;
+			targetProxy = B55A5B112E3B9B3A468C15670D21BC5A /* PBXContainerItemProxy */;
 		};
 		DE3110D833DB964B35C54E4ADD1AA551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -625,7 +626,7 @@
 		F185F3744DF0F97223DB4AE0570EB375 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SKPhotoBrowser;
-			target = 37DE287EA6FE442FA4D338E8EC23A64E /* SKPhotoBrowser */;
+			target = 93E045777B7714A2F2C044AF359DD6DB /* SKPhotoBrowser */;
 			targetProxy = 0ACFEB57E3171F173460C24443E25715 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -666,9 +667,9 @@
 			};
 			name = Release;
 		};
-		031D7379E06087233167602BE8383240 /* Debug */ = {
+		056AED59C05D08AE40C91EBD147A3709 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */;
+			baseConfigurationReference = C4F849DF28A4D7F963D9A82A7494F9B1 /* ABCollage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -690,13 +691,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		08CDFA8C36DDF18D28CE6B5FE68C781D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -766,9 +768,9 @@
 			};
 			name = Debug;
 		};
-		1749766011D04705D291D7BD91E6E2B5 /* Release */ = {
+		36DD7D232729E06F930DB5A15882442E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */;
+			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -779,19 +781,51 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ABCollage/ABCollage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ABCollage/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ABCollage/ABCollage.modulemap";
-				PRODUCT_MODULE_NAME = ABCollage;
-				PRODUCT_NAME = ABCollage;
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = SKPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E8275891A93F68A8484E676EA994B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = SKPhotoBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -832,38 +866,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		71A69F0ABC0FBC5ACB63F1FA045903F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
-				PRODUCT_MODULE_NAME = SKPhotoBrowser;
-				PRODUCT_NAME = SKPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -928,6 +930,38 @@
 			};
 			name = Debug;
 		};
+		93D7CC464D0662162030BA009B030D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F849DF28A4D7F963D9A82A7494F9B1 /* ABCollage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ABCollage/ABCollage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABCollage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABCollage/ABCollage.modulemap";
+				PRODUCT_MODULE_NAME = ABCollage;
+				PRODUCT_NAME = ABCollage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -986,39 +1020,6 @@
 			};
 			name = Release;
 		};
-		F304D352414484CA4573E4CB1F3A2236 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
-				PRODUCT_MODULE_NAME = SKPhotoBrowser;
-				PRODUCT_NAME = SKPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1031,11 +1032,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1180A26705F5DD56A2B2A04DA8F94FA3 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */ = {
+		1BF371002FD4D85164A2570580A3DC22 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71A69F0ABC0FBC5ACB63F1FA045903F9 /* Debug */,
-				F304D352414484CA4573E4CB1F3A2236 /* Release */,
+				36DD7D232729E06F930DB5A15882442E /* Debug */,
+				5E8275891A93F68A8484E676EA994B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1F1FC3EADC1BC200B0C69C3831B801 /* Build configuration list for PBXNativeTarget "ABCollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D7CC464D0662162030BA009B030D9B /* Debug */,
+				056AED59C05D08AE40C91EBD147A3709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1045,15 +1055,6 @@
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2FFE1974A6EF96C3D0350851093C5AC3 /* Build configuration list for PBXNativeTarget "ABCollage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				031D7379E06087233167602BE8383240 /* Debug */,
-				1749766011D04705D291D7BD91E6E2B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
