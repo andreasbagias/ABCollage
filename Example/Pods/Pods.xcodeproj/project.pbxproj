@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0B49D68D172A0C24681C6F8CF2CA8AAD /* SKIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */; };
 		1ECB692079A3BAF88098F003E6601A42 /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */; };
-		289CB3FB20A8A9EE0055AD25 /* ABImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB3FA20A8A9EE0055AD25 /* ABImage.swift */; };
-		289CB3FD20A8A9F40055AD25 /* ABMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB3FC20A8A9F30055AD25 /* ABMedia.swift */; };
-		289CB3FF20A8A9F90055AD25 /* ABVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB3FE20A8A9F90055AD25 /* ABVideo.swift */; };
+		289CB40320A8AC190055AD25 /* ABImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB40020A8AC180055AD25 /* ABImage.swift */; };
+		289CB40420A8AC190055AD25 /* ABMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB40120A8AC180055AD25 /* ABMedia.swift */; };
+		289CB40520A8AC190055AD25 /* ABVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB40220A8AC180055AD25 /* ABVideo.swift */; };
 		29CF0703648BA311E99953EF09A74DA2 /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */; };
 		2A3AC003CAC1E9E2E972F059353EB1DC /* SKLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */; };
 		2A864E71386F60C29DBE2472E344ECB6 /* Pods-ABCollage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -92,9 +92,9 @@
 		13100A767D578C1F0877DA50A34E2717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPhotoBrowser.xcconfig; sourceTree = "<group>"; };
 		1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingView.swift; path = SKPhotoBrowser/SKDetectingView.swift; sourceTree = "<group>"; };
-		289CB3FA20A8A9EE0055AD25 /* ABImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABImage.swift; sourceTree = "<group>"; };
-		289CB3FC20A8A9F30055AD25 /* ABMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABMedia.swift; sourceTree = "<group>"; };
-		289CB3FE20A8A9F90055AD25 /* ABVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABVideo.swift; sourceTree = "<group>"; };
+		289CB40020A8AC180055AD25 /* ABImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABImage.swift; path = ABCollage/Classes/ABImage.swift; sourceTree = "<group>"; };
+		289CB40120A8AC180055AD25 /* ABMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABMedia.swift; path = ABCollage/Classes/ABMedia.swift; sourceTree = "<group>"; };
+		289CB40220A8AC180055AD25 /* ABVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABVideo.swift; path = ABCollage/Classes/ABVideo.swift; sourceTree = "<group>"; };
 		28EACE2AA592E4F96233EBABB9071A9C /* Pods_ABCollage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserDelegate.swift; path = SKPhotoBrowser/SKPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
 		2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABCollage_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -207,9 +207,9 @@
 		0DA01721E3696A137D940410CDD54A13 /* ABCollage */ = {
 			isa = PBXGroup;
 			children = (
-				289CB3FE20A8A9F90055AD25 /* ABVideo.swift */,
-				289CB3FA20A8A9EE0055AD25 /* ABImage.swift */,
-				289CB3FC20A8A9F30055AD25 /* ABMedia.swift */,
+				289CB40020A8AC180055AD25 /* ABImage.swift */,
+				289CB40120A8AC180055AD25 /* ABMedia.swift */,
+				289CB40220A8AC180055AD25 /* ABVideo.swift */,
 				3A1FE66410F9E6E6A349A425A1BB29B4 /* ABCollageView.swift */,
 				3A7510D223250F7E544B4481E0E51740 /* Pod */,
 				443BFA42C9FB44841937985075C3633A /* Support Files */,
@@ -548,10 +548,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A26211349649900F63E959B174BD806A /* ABCollage-dummy.m in Sources */,
-				289CB3FB20A8A9EE0055AD25 /* ABImage.swift in Sources */,
+				289CB40320A8AC190055AD25 /* ABImage.swift in Sources */,
 				2D2E7F79A6903B433672A6A48E2A6827 /* ABCollageView.swift in Sources */,
-				289CB3FF20A8A9F90055AD25 /* ABVideo.swift in Sources */,
-				289CB3FD20A8A9F40055AD25 /* ABMedia.swift in Sources */,
+				289CB40520A8AC190055AD25 /* ABVideo.swift in Sources */,
+				289CB40420A8AC190055AD25 /* ABMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
