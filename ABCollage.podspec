@@ -40,5 +40,6 @@ A custom view which helps users to create a view with multiple image views that 
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SKPhotoBrowser'
+  
 end

@@ -7,87 +7,171 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28A734522090A57E000672D1 /* ABCollageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A734512090A57E000672D1 /* ABCollageView.swift */; };
-		49FDB4A4BF48AC2055AEF1148879BB61 /* Pods-ABCollage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		506418D9B395A51A6055150B9D9BC171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		56DAA7894A7B023BA480F59C7BDE6D97 /* ABCollage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4EA042E0AA8DCBF132EF930EDE8469 /* ABCollage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5729C0B2AA8FFCF4C0EC76AC7F3F25C2 /* Pods-ABCollage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D92D65F707DD1F3F55D9DE433D756 /* Pods-ABCollage_Example-dummy.m */; };
-		59CAF3A40CEDDDF573A4BDC5E28C51CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0B49D68D172A0C24681C6F8CF2CA8AAD /* SKIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */; };
+		1ECB692079A3BAF88098F003E6601A42 /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */; };
+		2805DB01209B306C00553149 /* ABVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805DB00209B306C00553149 /* ABVideo.swift */; };
+		2805DB03209B307C00553149 /* ABMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805DB02209B307C00553149 /* ABMedia.swift */; };
+		28A7346020971103000672D1 /* ABImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7345F20971103000672D1 /* ABImage.swift */; };
+		29CF0703648BA311E99953EF09A74DA2 /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */; };
+		2A3AC003CAC1E9E2E972F059353EB1DC /* SKLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */; };
+		2A864E71386F60C29DBE2472E344ECB6 /* Pods-ABCollage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D2E7F79A6903B433672A6A48E2A6827 /* ABCollageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1FE66410F9E6E6A349A425A1BB29B4 /* ABCollageView.swift */; };
+		31A2AFCA43DE866F8F0D17429C5B6D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
+		36095C3489ED3278D22BC930026ABFC3 /* SKDetectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */; };
+		406E67EDED12AC08523DE70B81EC8A4E /* SKPhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */; };
+		42117DC0C27A18E3C62A7947626CC7A5 /* SKPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */; };
+		477B2FB64A6419CE4FFEA2ED8106369B /* SKPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C39B845E2977A21A1E1C7DFBBECB526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
+		506418D9B395A51A6055150B9D9BC171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
+		5077BE6E12724C069DF357CD549A9811 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */; };
+		6472F390F1BC66908DFC03E394B4A7E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B04161248E708221416DBC7C69C950C /* UIKit.framework */; };
+		6D60C81B7788C238DA2AE95E0BDFA24C /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */; };
+		6FBA812765688AEEE5DB9BD9A16F7186 /* ABCollage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825D3BD8504DC553AC792A9033611BB6 /* ABCollage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758EB519365134A2BE8F58E36ED23333 /* Pods-ABCollage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D92D65F707DD1F3F55D9DE433D756 /* Pods-ABCollage_Example-dummy.m */; };
+		7AEAEF03A238EE48D0F5F1C5B8626908 /* SKZoomingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */; };
+		84A995196FEE306C67FAC26F2D29C5DB /* SKPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBE6FD6EBE2BF601AAB55E56E673C65 /* SKPhotoBrowser.framework */; };
+		84C02CFBA72E4128E469A6DABB1CD5B3 /* SKMesurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */; };
 		8BC97A77686C3482479B7AE3F3EB9EBD /* Pods-ABCollage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F74EEC6BE25F55D8DFC1E2CC605170 /* Pods-ABCollage_Tests-dummy.m */; };
-		967C62D0F2705F73BDA93EF7C94EC652 /* ABCollage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFBEC43897F910DC2F4E71CD9FE432 /* ABCollage-dummy.m */; };
-		C9A7D3E349C8075B7CA564066ADEEA56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8EA615433CCF828040A057AC76476E5F /* SKPhotoBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */; };
+		9379E36780FF3B907924DCD2BD0531F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B04161248E708221416DBC7C69C950C /* UIKit.framework */; };
+		94DC58A3CCFEB1781FC2A96C0669675E /* SKPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */; };
+		9ACA84E2C2AE799F03322890C060CC27 /* SKActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */; };
+		A26211349649900F63E959B174BD806A /* ABCollage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616599BDED2F94CD7E9B51BBEA311549 /* ABCollage-dummy.m */; };
+		B79E3D8B14DC75AFBBB8433F5505C49F /* SKButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */; };
+		B891F6D88BD09B619110D261C78A27BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */; };
+		C7E819331E39966F19F7BCCB6B091DCB /* UIApplication+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */; };
+		CD21D0CE3C0B3E52F342AAC6AE46B99B /* SKPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */; };
+		CD55D04820F51686DEF4119822A4F293 /* SKPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */; };
+		D0D90EC4042D2CCDC6D47BD94EF36CA8 /* SKPaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */; };
+		D48EB9E2213A57BD3721394ACEBC45C3 /* SKAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */; };
+		DE123841245C569681522BDE2AFE9D5B /* SKCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */; };
+		E4B603C58058162A7595AE33EFE1F0B5 /* SKCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */; };
 		EE49A6C0CB4218967F851AB98EE80DE7 /* Pods-ABCollage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBA4EA678CDB109C5B88D324B1A8C0 /* Pods-ABCollage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A5E92F702D947646F569C400B89FD1 /* SKPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */; };
+		F32E521B5723A8BB77842C55A7BB7F3E /* SKDetectingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */; };
+		F5DF6DAE9D91714E74572C4973434574 /* SKPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0ACFEB57E3171F173460C24443E25715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37DE287EA6FE442FA4D338E8EC23A64E;
+			remoteInfo = SKPhotoBrowser;
+		};
+		783B944341D51027FBA7CDF08604572B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CD610974775CED04EBE507508BAF86;
+			remoteInfo = ABCollage;
+		};
 		AD96DA919702AF6BF7E9EB65B0F59E20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E7F01F5119B1DB38CC47715182A1BEF4;
+			remoteGlobalIDString = 9DDB4839A19A95779D773C0F2181B95B;
 			remoteInfo = "Pods-ABCollage_Example";
 		};
-		D1B83026130BB4668809CAFF38F65EB7 /* PBXContainerItemProxy */ = {
+		CC500FBF19836D903AFBCEF33D50972F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A17C69E0FECA55A51E71A82203559E3;
-			remoteInfo = ABCollage;
+			remoteGlobalIDString = 37DE287EA6FE442FA4D338E8EC23A64E;
+			remoteInfo = SKPhotoBrowser;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015F6527025C5C5EA45D33DA418FB7D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		03CC2FB3340A2E3FC1114BE10BEC9DA7 /* Pods-ABCollage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		09F5B55E2C56AA95844A42E4F6BACF05 /* ABCollage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABCollage.modulemap; sourceTree = "<group>"; };
+		08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPaginationView.swift; path = SKPhotoBrowser/SKPaginationView.swift; sourceTree = "<group>"; };
 		0BE5DE8D9272C6DC037109E021516322 /* Pods-ABCollage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABCollage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPhotoBrowser.h; path = SKPhotoBrowser/SKPhotoBrowser.h; sourceTree = "<group>"; };
 		13100A767D578C1F0877DA50A34E2717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28A734512090A57E000672D1 /* ABCollageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ABCollageView.swift; path = ABCollage/Classes/ABCollageView.swift; sourceTree = "<group>"; };
+		14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPhotoBrowser.xcconfig; sourceTree = "<group>"; };
+		1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingView.swift; path = SKPhotoBrowser/SKDetectingView.swift; sourceTree = "<group>"; };
+		2805DB00209B306C00553149 /* ABVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABVideo.swift; sourceTree = "<group>"; };
+		2805DB02209B307C00553149 /* ABMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABMedia.swift; sourceTree = "<group>"; };
+		28A7345F20971103000672D1 /* ABImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABImage.swift; sourceTree = "<group>"; };
+		28EACE2AA592E4F96233EBABB9071A9C /* Pods_ABCollage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserDelegate.swift; path = SKPhotoBrowser/SKPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
 		2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABCollage_Example-umbrella.h"; sourceTree = "<group>"; };
-		2C0D29309C9298954D65F995744227E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2F4EA042E0AA8DCBF132EF930EDE8469 /* ABCollage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-umbrella.h"; sourceTree = "<group>"; };
-		3FAFBEC43897F910DC2F4E71CD9FE432 /* ABCollage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABCollage-dummy.m"; sourceTree = "<group>"; };
+		30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKActionView.swift; path = SKPhotoBrowser/SKActionView.swift; sourceTree = "<group>"; };
+		3A1FE66410F9E6E6A349A425A1BB29B4 /* ABCollageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABCollageView.swift; path = ABCollage/Classes/ABCollageView.swift; sourceTree = "<group>"; };
+		3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCache.swift; path = SKPhotoBrowser/SKCache.swift; sourceTree = "<group>"; };
 		445FD1237C02BA3782283780D3D22042 /* Pods-ABCollage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Example-resources.sh"; sourceTree = "<group>"; };
+		485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserOptions.swift; path = SKPhotoBrowser/SKPhotoBrowserOptions.swift; sourceTree = "<group>"; };
+		4C51AE91A9DB2D1FB576658543CF0062 /* ABCollage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABCollage.modulemap; sourceTree = "<group>"; };
 		52774E6AC242C1451396D8ED59F883A2 /* Pods-ABCollage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABCollage_Example.modulemap"; sourceTree = "<group>"; };
+		53602DA506D3E44BA0B100652A833F9E /* SKPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
 		549A69AF1FD07E441E0148892E381916 /* Pods-ABCollage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5566F43DD587A42A0543F8063E470ED7 /* Pods_ABCollage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		636979086D99FC4BCF240B3E0E4E9066 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AF8B3C11510184A2D4118F3F62A932E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+		5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+UIWindow.swift"; path = "SKPhotoBrowser/UIApplication+UIWindow.swift"; sourceTree = "<group>"; };
+		616599BDED2F94CD7E9B51BBEA311549 /* ABCollage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABCollage-dummy.m"; sourceTree = "<group>"; };
+		6B04161248E708221416DBC7C69C950C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		752558238B2855BC0C9CB3B85E9103D5 /* ABCollage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ABCollage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMesurement.swift; path = SKPhotoBrowser/SKMesurement.swift; sourceTree = "<group>"; };
+		79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
 		7BBABFD2C2F758E5ADCE4727C8C977E4 /* Pods-ABCollage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABCollage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotation.swift"; path = "SKPhotoBrowser/extensions/UIImage+Rotation.swift"; sourceTree = "<group>"; };
 		7F4D92D65F707DD1F3F55D9DE433D756 /* Pods-ABCollage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABCollage_Example-dummy.m"; sourceTree = "<group>"; };
 		813FC0C68EC3F7DB22E6DF10CD964D0E /* Pods-ABCollage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8E22E8D7B79B9444934DE345ACF41EB8 /* ABCollage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABCollage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FF2D175E7EB3129F415CCD0CEB67B63 /* Pods_ABCollage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		825D3BD8504DC553AC792A9033611BB6 /* ABCollage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-umbrella.h"; sourceTree = "<group>"; };
+		84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKIndicatorView.swift; path = SKPhotoBrowser/SKIndicatorView.swift; sourceTree = "<group>"; };
+		8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABCollage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F77E23D90E3276C782E122BD027DF1 /* Pods-ABCollage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A0CD19BB9190928391652ACCE07EA53 /* ABCollage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABCollage.xcconfig; sourceTree = "<group>"; };
 		A1F6F265DAE95F87F7350BFA63CBB61E /* Pods-ABCollage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Tests-resources.sh"; sourceTree = "<group>"; };
+		A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKZoomingScrollView.swift; path = SKPhotoBrowser/SKZoomingScrollView.swift; sourceTree = "<group>"; };
+		AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCacheable.swift; path = SKPhotoBrowser/SKCacheable.swift; sourceTree = "<group>"; };
 		AF3C7F7224956587E6B79FC1C7E8DFCB /* Pods-ABCollage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABCollage.xcconfig; sourceTree = "<group>"; };
+		B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCaptionView.swift; path = SKPhotoBrowser/SKCaptionView.swift; sourceTree = "<group>"; };
+		B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowser.swift; path = SKPhotoBrowser/SKPhotoBrowser.swift; sourceTree = "<group>"; };
 		B85FAB63B4B8DDFB46844FC4DD59AF97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAF1BEBA519B0F3F7BC314179ACCEEF4 /* ABCollage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-prefix.pch"; sourceTree = "<group>"; };
+		B99A55E044B02922F2C5E42C20ACDB55 /* SKPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKPhotoBrowser.modulemap; sourceTree = "<group>"; };
+		B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingImageView.swift; path = SKPhotoBrowser/SKDetectingImageView.swift; sourceTree = "<group>"; };
+		BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKAnimator.swift; path = SKPhotoBrowser/SKAnimator.swift; sourceTree = "<group>"; };
+		CBD77ACF8FBD7ECE7E89430F0989362D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKToolbar.swift; path = SKPhotoBrowser/SKToolbar.swift; sourceTree = "<group>"; };
+		CEFA248FEC5B40EE98707C492A18DB8E /* ABCollage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-prefix.pch"; sourceTree = "<group>"; };
 		CFCBA4EA678CDB109C5B88D324B1A8C0 /* Pods-ABCollage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABCollage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CFDE11FDD7A7B437A348B1080E180B41 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhoto.swift; path = SKPhotoBrowser/SKPhoto.swift; sourceTree = "<group>"; };
+		D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKButtons.swift; path = SKPhotoBrowser/SKButtons.swift; sourceTree = "<group>"; };
 		D7F74EEC6BE25F55D8DFC1E2CC605170 /* Pods-ABCollage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABCollage_Tests-dummy.m"; sourceTree = "<group>"; };
-		E908206E79B27FC1F2B85D6798DD937F /* ABCollage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ABCollage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPagingScrollView.swift; path = SKPhotoBrowser/SKPagingScrollView.swift; sourceTree = "<group>"; };
+		DEF4F619FC04C948CDA29736DB5BA702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFB067AC2E02B1E3768F6D847A51DC54 /* Pods-ABCollage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABCollage_Tests.modulemap"; sourceTree = "<group>"; };
 		F2815B573B727DC379C4DB3A7BC9CC8D /* Pods-ABCollage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABCollage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Radius.swift"; path = "SKPhotoBrowser/extensions/UIView+Radius.swift"; sourceTree = "<group>"; };
+		F999119847D651236FA5069CC9F91C90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SKPhotoBrowser.bundle; path = SKPhotoBrowser/SKPhotoBrowser.bundle; sourceTree = "<group>"; };
+		FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKLocalPhoto.swift; path = SKPhotoBrowser/SKLocalPhoto.swift; sourceTree = "<group>"; };
 		FC9B54F29674471A1DF12D4262704591 /* Pods-ABCollage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABCollage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FCC83E7A6019812F63D98C217EC91556 /* Pods-ABCollage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBE6FD6EBE2BF601AAB55E56E673C65 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF242C1928FD25DC94823734C50FFE18 /* Pods_ABCollage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2605CB96728A9B13D51376064865FB2E /* Frameworks */ = {
+		07450612D452D4F525315234A0C518DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CAF3A40CEDDDF573A4BDC5E28C51CD /* Foundation.framework in Frameworks */,
+				B891F6D88BD09B619110D261C78A27BE /* Foundation.framework in Frameworks */,
+				9379E36780FF3B907924DCD2BD0531F5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		734D2A8DC9445C1B17CAE62EACF3DD2E /* Frameworks */ = {
+		3BB9941778D81A6396ED4D762418986E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A7D3E349C8075B7CA564066ADEEA56 /* Foundation.framework in Frameworks */,
+				31A2AFCA43DE866F8F0D17429C5B6D4C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,40 +183,111 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DE15704F10461604A0E4ED15046C437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C39B845E2977A21A1E1C7DFBBECB526 /* Foundation.framework in Frameworks */,
+				84A995196FEE306C67FAC26F2D29C5DB /* SKPhotoBrowser.framework in Frameworks */,
+				6472F390F1BC66908DFC03E394B4A7E1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		255B7573B3FC21AD086B8562C1F86BD0 /* ABCollage */ = {
+		0D9B0C3D7B748D34849F791E4639B353 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28A734512090A57E000672D1 /* ABCollageView.swift */,
-				F04B2B724BE6800BE52F63ED602B500B /* Pod */,
-				3883541E4BBCD4AD4D244C221D411095 /* Support Files */,
+				F99A771F0EB5ADA69087A0BB1A133BE9 /* SKPhotoBrowser.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0DA01721E3696A137D940410CDD54A13 /* ABCollage */ = {
+			isa = PBXGroup;
+			children = (
+				3A1FE66410F9E6E6A349A425A1BB29B4 /* ABCollageView.swift */,
+				28A7345F20971103000672D1 /* ABImage.swift */,
+				2805DB00209B306C00553149 /* ABVideo.swift */,
+				2805DB02209B307C00553149 /* ABMedia.swift */,
+				3A7510D223250F7E544B4481E0E51740 /* Pod */,
+				443BFA42C9FB44841937985075C3633A /* Support Files */,
 			);
 			name = ABCollage;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		1A5E775CA15D27D4FA5C2C490568FF92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE46BF34BD31ADAF7EA87CABD752362 /* SKPhotoBrowser */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2BA75BD1929F55BF73ABD18AF59EB868 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				255B7573B3FC21AD086B8562C1F86BD0 /* ABCollage */,
+				0DA01721E3696A137D940410CDD54A13 /* ABCollage */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3883541E4BBCD4AD4D244C221D411095 /* Support Files */ = {
+		3A7510D223250F7E544B4481E0E51740 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				09F5B55E2C56AA95844A42E4F6BACF05 /* ABCollage.modulemap */,
-				9A0CD19BB9190928391652ACCE07EA53 /* ABCollage.xcconfig */,
-				3FAFBEC43897F910DC2F4E71CD9FE432 /* ABCollage-dummy.m */,
-				BAF1BEBA519B0F3F7BC314179ACCEEF4 /* ABCollage-prefix.pch */,
-				2F4EA042E0AA8DCBF132EF930EDE8469 /* ABCollage-umbrella.h */,
-				636979086D99FC4BCF240B3E0E4E9066 /* Info.plist */,
+				752558238B2855BC0C9CB3B85E9103D5 /* ABCollage.podspec */,
+				015F6527025C5C5EA45D33DA418FB7D4 /* LICENSE */,
+				CBD77ACF8FBD7ECE7E89430F0989362D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		443BFA42C9FB44841937985075C3633A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C51AE91A9DB2D1FB576658543CF0062 /* ABCollage.modulemap */,
+				AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */,
+				616599BDED2F94CD7E9B51BBEA311549 /* ABCollage-dummy.m */,
+				CEFA248FEC5B40EE98707C492A18DB8E /* ABCollage-prefix.pch */,
+				825D3BD8504DC553AC792A9033611BB6 /* ABCollage-umbrella.h */,
+				DEF4F619FC04C948CDA29736DB5BA702 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ABCollage";
+			sourceTree = "<group>";
+		};
+		4BE46BF34BD31ADAF7EA87CABD752362 /* SKPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */,
+				BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */,
+				D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */,
+				3E3261C43B4B42ACED2C3B22BE8DF3CC /* SKCache.swift */,
+				AD72C86CA6F19D9850D458565427F63A /* SKCacheable.swift */,
+				B41ED88E410D9C6B00BDF8A57C6ECFA8 /* SKCaptionView.swift */,
+				B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */,
+				1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */,
+				84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */,
+				FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */,
+				78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */,
+				08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */,
+				DBF36EB66F951628042302EC08D4B387 /* SKPagingScrollView.swift */,
+				D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */,
+				12C1981261C2C88C6131880079A68684 /* SKPhotoBrowser.h */,
+				B731B4997035B61B80472EAA5665760F /* SKPhotoBrowser.swift */,
+				2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */,
+				485A0393104A5C4A8F24B4CF7CAC9AFD /* SKPhotoBrowserOptions.swift */,
+				CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */,
+				A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */,
+				5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */,
+				7D27C635CFC1E111FAD4AA0C65FD5A42 /* UIImage+Rotation.swift */,
+				F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */,
+				0D9B0C3D7B748D34849F791E4639B353 /* Resources */,
+				9F8E01465AB23A94F81DFCC6D2861A2B /* Support Files */,
+			);
+			path = SKPhotoBrowser;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -140,10 +295,20 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2BA75BD1929F55BF73ABD18AF59EB868 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DDBB318AD5EB6BBF9FAEC4165D103E66 /* Products */,
+				7F6DB1A00C624BC1DA89EBF5E346919C /* Frameworks */,
+				1A5E775CA15D27D4FA5C2C490568FF92 /* Pods */,
+				B06F50C1A79048056B49207733853C7B /* Products */,
 				BC75B26CC48A3622E9DC321F8E5D7AE8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F6DB1A00C624BC1DA89EBF5E346919C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDBE6FD6EBE2BF601AAB55E56E673C65 /* SKPhotoBrowser.framework */,
+				C068016248FCC8572EFD9787A55D7F39 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		95D5DEBBEF4C0176E2F3744C0D81DA02 /* Pods-ABCollage_Tests */ = {
@@ -164,12 +329,29 @@
 			path = "Target Support Files/Pods-ABCollage_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9F8E01465AB23A94F81DFCC6D2861A2B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				F999119847D651236FA5069CC9F91C90 /* Info.plist */,
+				B99A55E044B02922F2C5E42C20ACDB55 /* SKPhotoBrowser.modulemap */,
+				14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */,
+				5AA1E91B1B1F4A48E14C061A4A6E5CE3 /* SKPhotoBrowser-dummy.m */,
+				53602DA506D3E44BA0B100652A833F9E /* SKPhotoBrowser-prefix.pch */,
+				79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/SKPhotoBrowser";
+			sourceTree = "<group>";
+		};
+		B06F50C1A79048056B49207733853C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */,
+				28EACE2AA592E4F96233EBABB9071A9C /* Pods_ABCollage_Example.framework */,
+				FF242C1928FD25DC94823734C50FFE18 /* Pods_ABCollage_Tests.framework */,
+				CFDE11FDD7A7B437A348B1080E180B41 /* SKPhotoBrowser.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC75B26CC48A3622E9DC321F8E5D7AE8 /* Targets Support Files */ = {
@@ -181,22 +363,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		C068016248FCC8572EFD9787A55D7F39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				B1B21E6941E3030036F378B601E2E99C /* Foundation.framework */,
+				6B04161248E708221416DBC7C69C950C /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		DDBB318AD5EB6BBF9FAEC4165D103E66 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8E22E8D7B79B9444934DE345ACF41EB8 /* ABCollage.framework */,
-				5566F43DD587A42A0543F8063E470ED7 /* Pods_ABCollage_Example.framework */,
-				8FF2D175E7EB3129F415CCD0CEB67B63 /* Pods_ABCollage_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DE003B99A24866837CF2CB010044771D /* Pods-ABCollage_Example */ = {
@@ -217,32 +390,31 @@
 			path = "Target Support Files/Pods-ABCollage_Example";
 			sourceTree = "<group>";
 		};
-		F04B2B724BE6800BE52F63ED602B500B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E908206E79B27FC1F2B85D6798DD937F /* ABCollage.podspec */,
-				7AF8B3C11510184A2D4118F3F62A932E /* LICENSE */,
-				2C0D29309C9298954D65F995744227E3 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		44F7ECF473A8F9458B738ED76C5EBD69 /* Headers */ = {
+		29FBA8A887EC3AC50B4ED43734D8911E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56DAA7894A7B023BA480F59C7BDE6D97 /* ABCollage-umbrella.h in Headers */,
+				2A864E71386F60C29DBE2472E344ECB6 /* Pods-ABCollage_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		457A737A9FCB4948826AF7C71834D79F /* Headers */ = {
+		65E43F883AF0E8B6DFA5A532B0647FC9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FDB4A4BF48AC2055AEF1148879BB61 /* Pods-ABCollage_Example-umbrella.h in Headers */,
+				477B2FB64A6419CE4FFEA2ED8106369B /* SKPhotoBrowser-umbrella.h in Headers */,
+				F5DF6DAE9D91714E74572C4973434574 /* SKPhotoBrowser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEBD9F111AB6581DE3ECE7C7322F74C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBA812765688AEEE5DB9BD9A16F7186 /* ABCollage-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,21 +429,59 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9A17C69E0FECA55A51E71A82203559E3 /* ABCollage */ = {
+		37DE287EA6FE442FA4D338E8EC23A64E /* SKPhotoBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E9910B9862A52469994D78C7826DB86 /* Build configuration list for PBXNativeTarget "ABCollage" */;
+			buildConfigurationList = 1180A26705F5DD56A2B2A04DA8F94FA3 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */;
 			buildPhases = (
-				3B6821E15C92FA7B460E9394961A2403 /* Sources */,
-				734D2A8DC9445C1B17CAE62EACF3DD2E /* Frameworks */,
-				44F7ECF473A8F9458B738ED76C5EBD69 /* Headers */,
+				E7B2B11BEC69FB153BC1EF8632FF1DF7 /* Sources */,
+				07450612D452D4F525315234A0C518DB /* Frameworks */,
+				65E43F883AF0E8B6DFA5A532B0647FC9 /* Headers */,
+				6FCA51ED87296F7ED136286954828A2C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SKPhotoBrowser;
+			productName = SKPhotoBrowser;
+			productReference = CFDE11FDD7A7B437A348B1080E180B41 /* SKPhotoBrowser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49CD610974775CED04EBE507508BAF86 /* ABCollage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FFE1974A6EF96C3D0350851093C5AC3 /* Build configuration list for PBXNativeTarget "ABCollage" */;
+			buildPhases = (
+				355B3B831DB11B4BC1EDD925CC97383B /* Sources */,
+				7DE15704F10461604A0E4ED15046C437 /* Frameworks */,
+				6EEBD9F111AB6581DE3ECE7C7322F74C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B1E924D31E31AE5C72EF4DBAF8D4B6 /* PBXTargetDependency */,
+			);
 			name = ABCollage;
 			productName = ABCollage;
-			productReference = 8E22E8D7B79B9444934DE345ACF41EB8 /* ABCollage.framework */;
+			productReference = 8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DDB4839A19A95779D773C0F2181B95B /* Pods-ABCollage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36AB3FB70A084A5042EA500088BF071 /* Build configuration list for PBXNativeTarget "Pods-ABCollage_Example" */;
+			buildPhases = (
+				F00BAE2D20F469B5659F7A0229F22438 /* Sources */,
+				3BB9941778D81A6396ED4D762418986E /* Frameworks */,
+				29FBA8A887EC3AC50B4ED43734D8911E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27CFF76277F2A163A587B9D8D757793E /* PBXTargetDependency */,
+				F185F3744DF0F97223DB4AE0570EB375 /* PBXTargetDependency */,
+			);
+			name = "Pods-ABCollage_Example";
+			productName = "Pods-ABCollage_Example";
+			productReference = 28EACE2AA592E4F96233EBABB9071A9C /* Pods_ABCollage_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B128FAC4E710C5C50C071FA05BECD32E /* Pods-ABCollage_Tests */ = {
@@ -289,25 +499,7 @@
 			);
 			name = "Pods-ABCollage_Tests";
 			productName = "Pods-ABCollage_Tests";
-			productReference = 8FF2D175E7EB3129F415CCD0CEB67B63 /* Pods_ABCollage_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E7F01F5119B1DB38CC47715182A1BEF4 /* Pods-ABCollage_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C2AFEF13FBBA21629B99B88E7AD3139 /* Build configuration list for PBXNativeTarget "Pods-ABCollage_Example" */;
-			buildPhases = (
-				EA922617A9ADC85A622AB7F90E793562 /* Sources */,
-				2605CB96728A9B13D51376064865FB2E /* Frameworks */,
-				457A737A9FCB4948826AF7C71834D79F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				647E09C28FC19FB0C6EEB5BA20E85FB7 /* PBXTargetDependency */,
-			);
-			name = "Pods-ABCollage_Example";
-			productName = "Pods-ABCollage_Example";
-			productReference = 5566F43DD587A42A0543F8063E470ED7 /* Pods_ABCollage_Example.framework */;
+			productReference = FF242C1928FD25DC94823734C50FFE18 /* Pods_ABCollage_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,24 +519,39 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DDBB318AD5EB6BBF9FAEC4165D103E66 /* Products */;
+			productRefGroup = B06F50C1A79048056B49207733853C7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A17C69E0FECA55A51E71A82203559E3 /* ABCollage */,
-				E7F01F5119B1DB38CC47715182A1BEF4 /* Pods-ABCollage_Example */,
+				49CD610974775CED04EBE507508BAF86 /* ABCollage */,
+				9DDB4839A19A95779D773C0F2181B95B /* Pods-ABCollage_Example */,
 				B128FAC4E710C5C50C071FA05BECD32E /* Pods-ABCollage_Tests */,
+				37DE287EA6FE442FA4D338E8EC23A64E /* SKPhotoBrowser */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		6FCA51ED87296F7ED136286954828A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DC58A3CCFEB1781FC2A96C0669675E /* SKPhotoBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		3B6821E15C92FA7B460E9394961A2403 /* Sources */ = {
+		355B3B831DB11B4BC1EDD925CC97383B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A734522090A57E000672D1 /* ABCollageView.swift in Sources */,
-				967C62D0F2705F73BDA93EF7C94EC652 /* ABCollage-dummy.m in Sources */,
+				A26211349649900F63E959B174BD806A /* ABCollage-dummy.m in Sources */,
+				28A7346020971103000672D1 /* ABImage.swift in Sources */,
+				2805DB01209B306C00553149 /* ABVideo.swift in Sources */,
+				2D2E7F79A6903B433672A6A48E2A6827 /* ABCollageView.swift in Sources */,
+				2805DB03209B307C00553149 /* ABMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,36 +563,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA922617A9ADC85A622AB7F90E793562 /* Sources */ = {
+		E7B2B11BEC69FB153BC1EF8632FF1DF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5729C0B2AA8FFCF4C0EC76AC7F3F25C2 /* Pods-ABCollage_Example-dummy.m in Sources */,
+				9ACA84E2C2AE799F03322890C060CC27 /* SKActionView.swift in Sources */,
+				D48EB9E2213A57BD3721394ACEBC45C3 /* SKAnimator.swift in Sources */,
+				B79E3D8B14DC75AFBBB8433F5505C49F /* SKButtons.swift in Sources */,
+				5077BE6E12724C069DF357CD549A9811 /* SKCache.swift in Sources */,
+				DE123841245C569681522BDE2AFE9D5B /* SKCacheable.swift in Sources */,
+				E4B603C58058162A7595AE33EFE1F0B5 /* SKCaptionView.swift in Sources */,
+				F32E521B5723A8BB77842C55A7BB7F3E /* SKDetectingImageView.swift in Sources */,
+				36095C3489ED3278D22BC930026ABFC3 /* SKDetectingView.swift in Sources */,
+				0B49D68D172A0C24681C6F8CF2CA8AAD /* SKIndicatorView.swift in Sources */,
+				2A3AC003CAC1E9E2E972F059353EB1DC /* SKLocalPhoto.swift in Sources */,
+				84C02CFBA72E4128E469A6DABB1CD5B3 /* SKMesurement.swift in Sources */,
+				D0D90EC4042D2CCDC6D47BD94EF36CA8 /* SKPaginationView.swift in Sources */,
+				CD55D04820F51686DEF4119822A4F293 /* SKPagingScrollView.swift in Sources */,
+				42117DC0C27A18E3C62A7947626CC7A5 /* SKPhoto.swift in Sources */,
+				F2A5E92F702D947646F569C400B89FD1 /* SKPhotoBrowser-dummy.m in Sources */,
+				CD21D0CE3C0B3E52F342AAC6AE46B99B /* SKPhotoBrowser.swift in Sources */,
+				406E67EDED12AC08523DE70B81EC8A4E /* SKPhotoBrowserDelegate.swift in Sources */,
+				8EA615433CCF828040A057AC76476E5F /* SKPhotoBrowserOptions.swift in Sources */,
+				1ECB692079A3BAF88098F003E6601A42 /* SKToolbar.swift in Sources */,
+				7AEAEF03A238EE48D0F5F1C5B8626908 /* SKZoomingScrollView.swift in Sources */,
+				C7E819331E39966F19F7BCCB6B091DCB /* UIApplication+UIWindow.swift in Sources */,
+				6D60C81B7788C238DA2AE95E0BDFA24C /* UIImage+Rotation.swift in Sources */,
+				29CF0703648BA311E99953EF09A74DA2 /* UIView+Radius.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00BAE2D20F469B5659F7A0229F22438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758EB519365134A2BE8F58E36ED23333 /* Pods-ABCollage_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		647E09C28FC19FB0C6EEB5BA20E85FB7 /* PBXTargetDependency */ = {
+		27CFF76277F2A163A587B9D8D757793E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ABCollage;
-			target = 9A17C69E0FECA55A51E71A82203559E3 /* ABCollage */;
-			targetProxy = D1B83026130BB4668809CAFF38F65EB7 /* PBXContainerItemProxy */;
+			target = 49CD610974775CED04EBE507508BAF86 /* ABCollage */;
+			targetProxy = 783B944341D51027FBA7CDF08604572B /* PBXContainerItemProxy */;
+		};
+		66B1E924D31E31AE5C72EF4DBAF8D4B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKPhotoBrowser;
+			target = 37DE287EA6FE442FA4D338E8EC23A64E /* SKPhotoBrowser */;
+			targetProxy = CC500FBF19836D903AFBCEF33D50972F /* PBXContainerItemProxy */;
 		};
 		DE3110D833DB964B35C54E4ADD1AA551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ABCollage_Example";
-			target = E7F01F5119B1DB38CC47715182A1BEF4 /* Pods-ABCollage_Example */;
+			target = 9DDB4839A19A95779D773C0F2181B95B /* Pods-ABCollage_Example */;
 			targetProxy = AD96DA919702AF6BF7E9EB65B0F59E20 /* PBXContainerItemProxy */;
+		};
+		F185F3744DF0F97223DB4AE0570EB375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKPhotoBrowser;
+			target = 37DE287EA6FE442FA4D338E8EC23A64E /* SKPhotoBrowser */;
+			targetProxy = 0ACFEB57E3171F173460C24443E25715 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		086603A24AD668AB5061B539C431B76B /* Debug */ = {
+		029274F79075FCE138F585A39998F813 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A0CD19BB9190928391652ACCE07EA53 /* ABCollage.xcconfig */;
+			baseConfigurationReference = 96F77E23D90E3276C782E122BD027DF1 /* Pods-ABCollage_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -395,19 +645,56 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ABCollage/ABCollage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ABCollage/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ABCollage_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ABCollage/ABCollage.modulemap";
-				PRODUCT_MODULE_NAME = ABCollage;
-				PRODUCT_NAME = ABCollage;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABCollage_Example/Pods-ABCollage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08CDFA8C36DDF18D28CE6B5FE68C781D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3C7F7224956587E6B79FC1C7E8DFCB /* Pods-ABCollage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ABCollage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABCollage_Example/Pods-ABCollage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -447,9 +734,9 @@
 			};
 			name = Debug;
 		};
-		346BE638E73BAECCD07D685126FC389A /* Release */ = {
+		3B0A84FCA6B57654A93185C56818C839 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A0CD19BB9190928391652ACCE07EA53 /* ABCollage.xcconfig */;
+			baseConfigurationReference = AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -468,6 +755,71 @@
 				MODULEMAP_FILE = "Target Support Files/ABCollage/ABCollage.modulemap";
 				PRODUCT_MODULE_NAME = ABCollage;
 				PRODUCT_NAME = ABCollage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DDC533209882802E937CF18B5178BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ABCollage/ABCollage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABCollage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABCollage/ABCollage.modulemap";
+				PRODUCT_MODULE_NAME = ABCollage;
+				PRODUCT_NAME = ABCollage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D0FB5628216816DE7D546AB6EEB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = SKPhotoBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -577,11 +929,10 @@
 			};
 			name = Debug;
 		};
-		A6A697C04500335BC7E47D3E9BC5FA3B /* Debug */ = {
+		91E0D72CB9D4019DC5BA3F4ACC5788B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF3C7F7224956587E6B79FC1C7E8DFCB /* Pods-ABCollage_Example.debug.xcconfig */;
+			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -591,21 +942,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ABCollage_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ABCollage_Example/Pods-ABCollage_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = SKPhotoBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -670,53 +1019,9 @@
 			};
 			name = Release;
 		};
-		F50BDB36B07D6CED0FD346C7B93F7D31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96F77E23D90E3276C782E122BD027DF1 /* Pods-ABCollage_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ABCollage_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ABCollage_Example/Pods-ABCollage_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E9910B9862A52469994D78C7826DB86 /* Build configuration list for PBXNativeTarget "ABCollage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				086603A24AD668AB5061B539C431B76B /* Debug */,
-				346BE638E73BAECCD07D685126FC389A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		10348B46BC37434A59EE465611A92D8B /* Build configuration list for PBXNativeTarget "Pods-ABCollage_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -726,11 +1031,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C2AFEF13FBBA21629B99B88E7AD3139 /* Build configuration list for PBXNativeTarget "Pods-ABCollage_Example" */ = {
+		1180A26705F5DD56A2B2A04DA8F94FA3 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6A697C04500335BC7E47D3E9BC5FA3B /* Debug */,
-				F50BDB36B07D6CED0FD346C7B93F7D31 /* Release */,
+				91E0D72CB9D4019DC5BA3F4ACC5788B9 /* Debug */,
+				552D0FB5628216816DE7D546AB6EEB0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,6 +1045,24 @@
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FFE1974A6EF96C3D0350851093C5AC3 /* Build configuration list for PBXNativeTarget "ABCollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0A84FCA6B57654A93185C56818C839 /* Debug */,
+				3DDC533209882802E937CF18B5178BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36AB3FB70A084A5042EA500088BF071 /* Build configuration list for PBXNativeTarget "Pods-ABCollage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CDFA8C36DDF18D28CE6B5FE68C781D /* Debug */,
+				029274F79075FCE138F585A39998F813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

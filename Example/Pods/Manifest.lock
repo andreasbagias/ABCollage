@@ -1,15 +1,22 @@
 PODS:
-  - ABCollage (0.1.0)
+  - ABCollage (0.1.0):
+    - SKPhotoBrowser
+  - SKPhotoBrowser (5.0.9)
 
 DEPENDENCIES:
   - ABCollage (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SKPhotoBrowser
 
 EXTERNAL SOURCES:
   ABCollage:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ABCollage: 4882f0d861b74a4e0fde74a71df0a20c72a9a6f5
+  ABCollage: 331954aa789e39ddc6aa57e7c350d1fe319472ad
+  SKPhotoBrowser: 668c29bdd9d4d276026fc131c55e96d902c2463c
 
 PODFILE CHECKSUM: 0a5342efddf23fcb12548f7f3fe8adbed0acec47
 
