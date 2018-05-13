@@ -8,8 +8,8 @@
 ## Example
 
 <a href="https://imgflip.com/gif/2a6ijg"><img src="https://i.imgflip.com/2a6ijg.gif" title="made at imgflip.com"/></a>
-<img src="https://github.com/andreasbagias/ABCollage/blob/master/Example/picture1.png" style="width=260px;height=463px">
-<img src="https://github.com/andreasbagias/ABCollage/blob/master/Example/picture2.png" style="width=260px;height=463px">
+<img src="https://github.com/andreasbagias/ABCollage/blob/master/Example/picture1.png" width="260" height="463">
+<img src="https://github.com/andreasbagias/ABCollage/blob/master/Example/picture2.png" width="260" height="463">
 
 ## Installation
 
