@@ -8,7 +8,7 @@
 ## Example
 
 <a href="https://imgflip.com/gif/2a6ijg"><img src="https://i.imgflip.com/2a6ijg.gif" title="made at imgflip.com"/></a>
-![alternativetext](Example/picture1.png){:height="700px" width="400px"}
+<img src="https://github.com/andreasbagias/ABCollage/blob/master/Example/picture1.png" width="400" height="790">
 
 ## Installation
 
