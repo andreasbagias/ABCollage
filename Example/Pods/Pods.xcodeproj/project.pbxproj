@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		0B49D68D172A0C24681C6F8CF2CA8AAD /* SKIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */; };
 		1ECB692079A3BAF88098F003E6601A42 /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */; };
-		2805DB01209B306C00553149 /* ABVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805DB00209B306C00553149 /* ABVideo.swift */; };
-		2805DB03209B307C00553149 /* ABMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805DB02209B307C00553149 /* ABMedia.swift */; };
-		28A7346020971103000672D1 /* ABImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7345F20971103000672D1 /* ABImage.swift */; };
 		29CF0703648BA311E99953EF09A74DA2 /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385BF2D1BD623C74B6D4BFC7326D5F1 /* UIView+Radius.swift */; };
 		2A3AC003CAC1E9E2E972F059353EB1DC /* SKLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C0F9619557940A98A98886AA7D623 /* SKLocalPhoto.swift */; };
 		2A864E71386F60C29DBE2472E344ECB6 /* Pods-ABCollage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,7 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015F6527025C5C5EA45D33DA418FB7D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		015F6527025C5C5EA45D33DA418FB7D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		03CC2FB3340A2E3FC1114BE10BEC9DA7 /* Pods-ABCollage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		08C33DE626603685C63A3E3EADC48395 /* SKPaginationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPaginationView.swift; path = SKPhotoBrowser/SKPaginationView.swift; sourceTree = "<group>"; };
 		0BE5DE8D9272C6DC037109E021516322 /* Pods-ABCollage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABCollage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -92,10 +89,7 @@
 		13100A767D578C1F0877DA50A34E2717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPhotoBrowser.xcconfig; sourceTree = "<group>"; };
 		1773AFC1E9FFA9720A4546DF4400D0DF /* SKDetectingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingView.swift; path = SKPhotoBrowser/SKDetectingView.swift; sourceTree = "<group>"; };
-		2805DB00209B306C00553149 /* ABVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABVideo.swift; sourceTree = "<group>"; };
-		2805DB02209B307C00553149 /* ABMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABMedia.swift; sourceTree = "<group>"; };
-		28A7345F20971103000672D1 /* ABImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABImage.swift; sourceTree = "<group>"; };
-		28EACE2AA592E4F96233EBABB9071A9C /* Pods_ABCollage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EACE2AA592E4F96233EBABB9071A9C /* Pods_ABCollage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABCollage_Example.framework; path = "Pods-ABCollage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2943B0B37CDECFFE629FD8FA69BDF874 /* SKPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserDelegate.swift; path = SKPhotoBrowser/SKPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
 		2B2E812D3FEDD8025A9A9EEF4FA86E35 /* Pods-ABCollage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABCollage_Example-umbrella.h"; sourceTree = "<group>"; };
 		30DD6C7613A2B6995A2264BA89247021 /* SKActionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKActionView.swift; path = SKPhotoBrowser/SKActionView.swift; sourceTree = "<group>"; };
@@ -111,7 +105,7 @@
 		5FCD999D4CC344FF0B8D78F8E09E42CA /* UIApplication+UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+UIWindow.swift"; path = "SKPhotoBrowser/UIApplication+UIWindow.swift"; sourceTree = "<group>"; };
 		616599BDED2F94CD7E9B51BBEA311549 /* ABCollage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABCollage-dummy.m"; sourceTree = "<group>"; };
 		6B04161248E708221416DBC7C69C950C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		752558238B2855BC0C9CB3B85E9103D5 /* ABCollage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ABCollage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		752558238B2855BC0C9CB3B85E9103D5 /* ABCollage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ABCollage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		78CADE1BC9C483533ADC96AC28EEDD74 /* SKMesurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMesurement.swift; path = SKPhotoBrowser/SKMesurement.swift; sourceTree = "<group>"; };
 		79A9D9B5D0B3230C6E5C689CA7DA5341 /* SKPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
 		7BBABFD2C2F758E5ADCE4727C8C977E4 /* Pods-ABCollage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABCollage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -120,8 +114,8 @@
 		813FC0C68EC3F7DB22E6DF10CD964D0E /* Pods-ABCollage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		825D3BD8504DC553AC792A9033611BB6 /* ABCollage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-umbrella.h"; sourceTree = "<group>"; };
 		84B473B7F9505DC4313E4BE8E7207469 /* SKIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKIndicatorView.swift; path = SKPhotoBrowser/SKIndicatorView.swift; sourceTree = "<group>"; };
-		8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABCollage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CDE173070D653DDB300DA589CCDEA2F /* ABCollage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABCollage.framework; path = ABCollage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F77E23D90E3276C782E122BD027DF1 /* Pods-ABCollage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A1F6F265DAE95F87F7350BFA63CBB61E /* Pods-ABCollage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABCollage_Tests-resources.sh"; sourceTree = "<group>"; };
 		A941F3D037C77417EAB564BD74951CF3 /* SKZoomingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKZoomingScrollView.swift; path = SKPhotoBrowser/SKZoomingScrollView.swift; sourceTree = "<group>"; };
@@ -135,11 +129,11 @@
 		B99A55E044B02922F2C5E42C20ACDB55 /* SKPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKPhotoBrowser.modulemap; sourceTree = "<group>"; };
 		B9C33738B0B8C32E052006A6FFE10FD7 /* SKDetectingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingImageView.swift; path = SKPhotoBrowser/SKDetectingImageView.swift; sourceTree = "<group>"; };
 		BB7CCC332BEB923ADEF7FB893B76269F /* SKAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKAnimator.swift; path = SKPhotoBrowser/SKAnimator.swift; sourceTree = "<group>"; };
-		CBD77ACF8FBD7ECE7E89430F0989362D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CBD77ACF8FBD7ECE7E89430F0989362D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CDB3AF72388E9AFC02E0DF4D18DA4CC2 /* SKToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKToolbar.swift; path = SKPhotoBrowser/SKToolbar.swift; sourceTree = "<group>"; };
 		CEFA248FEC5B40EE98707C492A18DB8E /* ABCollage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABCollage-prefix.pch"; sourceTree = "<group>"; };
 		CFCBA4EA678CDB109C5B88D324B1A8C0 /* Pods-ABCollage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABCollage_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CFDE11FDD7A7B437A348B1080E180B41 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDE11FDD7A7B437A348B1080E180B41 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKPhotoBrowser.framework; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A6367F43A4DA06CA2597487E1FBCD9 /* SKPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhoto.swift; path = SKPhotoBrowser/SKPhoto.swift; sourceTree = "<group>"; };
 		D3B46E267D5F48F408DF7276CD78840D /* SKButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKButtons.swift; path = SKPhotoBrowser/SKButtons.swift; sourceTree = "<group>"; };
 		D7F74EEC6BE25F55D8DFC1E2CC605170 /* Pods-ABCollage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABCollage_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -154,7 +148,7 @@
 		FC9B54F29674471A1DF12D4262704591 /* Pods-ABCollage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABCollage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FCC83E7A6019812F63D98C217EC91556 /* Pods-ABCollage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABCollage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDBE6FD6EBE2BF601AAB55E56E673C65 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF242C1928FD25DC94823734C50FFE18 /* Pods_ABCollage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCollage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF242C1928FD25DC94823734C50FFE18 /* Pods_ABCollage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABCollage_Tests.framework; path = "Pods-ABCollage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,9 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				3A1FE66410F9E6E6A349A425A1BB29B4 /* ABCollageView.swift */,
-				28A7345F20971103000672D1 /* ABImage.swift */,
-				2805DB00209B306C00553149 /* ABVideo.swift */,
-				2805DB02209B307C00553149 /* ABMedia.swift */,
 				3A7510D223250F7E544B4481E0E51740 /* Pod */,
 				443BFA42C9FB44841937985075C3633A /* Support Files */,
 			);
@@ -287,6 +278,7 @@
 				0D9B0C3D7B748D34849F791E4639B353 /* Resources */,
 				9F8E01465AB23A94F81DFCC6D2861A2B /* Support Files */,
 			);
+			name = SKPhotoBrowser;
 			path = SKPhotoBrowser;
 			sourceTree = "<group>";
 		};
@@ -548,10 +540,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A26211349649900F63E959B174BD806A /* ABCollage-dummy.m in Sources */,
-				28A7346020971103000672D1 /* ABImage.swift in Sources */,
-				2805DB01209B306C00553149 /* ABVideo.swift in Sources */,
 				2D2E7F79A6903B433672A6A48E2A6827 /* ABCollageView.swift in Sources */,
-				2805DB03209B307C00553149 /* ABMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +655,38 @@
 			};
 			name = Release;
 		};
+		031D7379E06087233167602BE8383240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ABCollage/ABCollage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABCollage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABCollage/ABCollage.modulemap";
+				PRODUCT_MODULE_NAME = ABCollage;
+				PRODUCT_NAME = ABCollage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		08CDFA8C36DDF18D28CE6B5FE68C781D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF3C7F7224956587E6B79FC1C7E8DFCB /* Pods-ABCollage_Example.debug.xcconfig */;
@@ -734,39 +755,7 @@
 			};
 			name = Debug;
 		};
-		3B0A84FCA6B57654A93185C56818C839 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ABCollage/ABCollage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ABCollage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ABCollage/ABCollage.modulemap";
-				PRODUCT_MODULE_NAME = ABCollage;
-				PRODUCT_NAME = ABCollage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3DDC533209882802E937CF18B5178BD6 /* Release */ = {
+		1749766011D04705D291D7BD91E6E2B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF85EC412FC427D90998C77373B70061 /* ABCollage.xcconfig */;
 			buildSettings = {
@@ -791,40 +780,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		552D0FB5628216816DE7D546AB6EEB0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
-				PRODUCT_MODULE_NAME = SKPhotoBrowser;
-				PRODUCT_NAME = SKPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -865,6 +821,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		71A69F0ABC0FBC5ACB63F1FA045903F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = SKPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -929,38 +917,6 @@
 			};
 			name = Debug;
 		};
-		91E0D72CB9D4019DC5BA3F4ACC5788B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
-				PRODUCT_MODULE_NAME = SKPhotoBrowser;
-				PRODUCT_NAME = SKPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1019,6 +975,39 @@
 			};
 			name = Release;
 		};
+		F304D352414484CA4573E4CB1F3A2236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D237F256A1E06813CC0BB9C9C6F68A /* SKPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = SKPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1034,8 +1023,8 @@
 		1180A26705F5DD56A2B2A04DA8F94FA3 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91E0D72CB9D4019DC5BA3F4ACC5788B9 /* Debug */,
-				552D0FB5628216816DE7D546AB6EEB0C /* Release */,
+				71A69F0ABC0FBC5ACB63F1FA045903F9 /* Debug */,
+				F304D352414484CA4573E4CB1F3A2236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1052,8 +1041,8 @@
 		2FFE1974A6EF96C3D0350851093C5AC3 /* Build configuration list for PBXNativeTarget "ABCollage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B0A84FCA6B57654A93185C56818C839 /* Debug */,
-				3DDC533209882802E937CF18B5178BD6 /* Release */,
+				031D7379E06087233167602BE8383240 /* Debug */,
+				1749766011D04705D291D7BD91E6E2B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

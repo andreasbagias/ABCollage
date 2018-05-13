@@ -1,6 +1,6 @@
 {
   "name": "ABCollage",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "Custom view with 2 dimensional array of image views",
   "description": "A custom view which helps users to create a view with multiple image views that are positioned as in a two dimensional array.",
   "homepage": "https://github.com/andreasbagias/ABCollage",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/andreasbagias/ABCollage.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "4.1"
+    "SWIFT_VERSION": "3.3"
   },
   "source_files": "ABCollage/Classes/**/*",
   "frameworks": "UIKit",
