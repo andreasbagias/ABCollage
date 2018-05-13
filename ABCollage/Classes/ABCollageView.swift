@@ -16,7 +16,7 @@ public class ABCollageView: UIView{
     private var imagesAreUserInteractionEnabled: Bool = false
     private var vc: UIViewController!
     private var skimages = [SKPhoto]()
-    private var videos: [ABVideo] = [ABVideo]()
+    var videos: [ABVideo] = [ABVideo]()
     
     public var padding: CGFloat = 0.0
     public var cornerRadius: CGFloat = 0.0
@@ -106,7 +106,7 @@ public class ABCollageView: UIView{
                 if let abVideo = media[i][j] as? ABVideo{
                     
                     abVideo.playerLayer.frame = positions[i][j]
-                    abVideo.playerLayer.videoGravity = .resizeAspectFill
+                    abVideo.playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
                     abVideo.playerLayer.masksToBounds = true
                     abVideo.playerLayer.cornerRadius = cornerRadius
                     abVideo.playerLayer.borderWidth = abVideo.borderWidth ?? borderWidth
