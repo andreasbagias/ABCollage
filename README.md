@@ -8,7 +8,7 @@
 ## Example
 
 <a href="https://imgflip.com/gif/2a6ijg"><img src="https://i.imgflip.com/2a6ijg.gif" title="made at imgflip.com"/></a>
-![alternativetext](Example/picture1.png)
+![alternativetext](Example/picture1.png | width=100)
 
 ## Installation
 
