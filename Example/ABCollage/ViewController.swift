@@ -10,7 +10,7 @@ import UIKit
 import ABCollage
 import MobileCoreServices
 
-class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+class ViewController: UIViewController, ABCollageViewDelegate {
 
     @IBOutlet weak var collageView: ABCollageView!
     
@@ -22,6 +22,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         collageView.padding = 10
         collageView.cornerRadius = 10
         collageView.borderWidth = 3
+        collageView.delegate = self
         
         let image1 = ABImage(image: UIImage(named: "test1")!)
         let image2 = ABImage(image: UIImage(named: "test2")!)
@@ -42,7 +43,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
                              [image4,image3],
                              [image5,image6]]
         
-        collageView.setUserInteraction(enabled: true, vc: self)
+        collageView.setUserInteraction(enabled: true)
+        
+    }
+    
+    internal func imageTapped(index: Int, images: [ABImage]){
         
     }
     

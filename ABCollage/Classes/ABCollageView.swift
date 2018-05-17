@@ -7,17 +7,20 @@
 
 import UIKit
 import AVFoundation
-import SKPhotoBrowser
 import AVKit
+
+public protocol ABCollageViewDelegate {
+    func imageTapped(index: Int, images: [ABImage])
+}
 
 public class ABCollageView: UIView{
     
+    private var images = [ABImage]()
     private var imagesArray: [[ABMedia]]?
     private var imagesAreUserInteractionEnabled: Bool = false
-    private var vc: UIViewController!
-    private var skimages = [SKPhoto]()
     var videos: [ABVideo] = [ABVideo]()
     
+    public var delegate: ABCollageViewDelegate?
     public var padding: CGFloat = 0.0
     public var cornerRadius: CGFloat = 0.0
     public var borderWidth: CGFloat = 0.0
@@ -46,8 +49,7 @@ public class ABCollageView: UIView{
         super.init(coder: aDecoder)
     }
     
-    public func setUserInteraction(enabled: Bool, vc: UIViewController){
-        self.vc = vc
+    public func setUserInteraction(enabled: Bool){
         self.imagesAreUserInteractionEnabled = enabled
         
         self.subviews.forEach { (view) in
@@ -95,7 +97,7 @@ public class ABCollageView: UIView{
     private func addMedia(_ media: [[ABMedia]]){
         
         self.videos.removeAll()
-        self.skimages.removeAll()
+        self.images.removeAll()
         self.subviews.forEach({ $0.removeFromSuperview() })
         var positions = getFrames(media: media)
         var index = 0
@@ -136,9 +138,9 @@ public class ABCollageView: UIView{
                     imageView.addGestureRecognizer(gesture)
                     imageView.isUserInteractionEnabled = imagesAreUserInteractionEnabled
                     
-                    skimages.append(SKPhoto.photoWithImage(abImage.image))
-                    
                     addSubview(imageView)
+                    
+                    self.images.append(abImage)
                 }
                 
                 index += 1
@@ -149,9 +151,8 @@ public class ABCollageView: UIView{
     
     @objc private func imageViewTapped(gesture: UITapGestureRecognizer){
         
-        let browser = SKPhotoBrowser(photos: skimages)
-        browser.initializePageIndex(gesture.view?.tag ?? 0)
-        vc.present(browser, animated: true, completion: nil)
+        guard let tag = gesture.view?.tag else { return }
+        delegate?.imageTapped(index: tag, images: images)
         
     }
     

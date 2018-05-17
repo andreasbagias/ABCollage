@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ABCollage'
-  s.version          = '0.1.0'
-  s.summary          = 'Custom view with 2 dimensional array of image views'
+  s.version          = '0.1.1'
+  s.summary          = 'Custom view with 2 dimensional array of images and videos'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,7 +29,8 @@ A custom view which helps users to create a view with multiple image views that 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.3' }
+  # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
+  s.swift_version = '4.1'
   
   s.source_files = 'ABCollage/Classes/**/*'
   # s.source_files = 'ABCollage/*.swift'
@@ -40,6 +41,6 @@ A custom view which helps users to create a view with multiple image views that 
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'SKPhotoBrowser'
+  # s.dependency 'SKPhotoBrowser'
   
 end
